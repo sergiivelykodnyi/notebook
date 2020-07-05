@@ -1,0 +1,16 @@
+---
+title: "Shell Script"
+date: "2020-07-04"
+keywords:
+  - Linux
+  - Unix
+  - Shell Script
+description: "Collection of sources about Shell Script"
+---
+
+Test posts text one more
+
+## Sources
+
+* [Shell Scripting Tutorial](https://www.tutorialspoint.com/unix/shell_scripting.htm)
+* [Shell Scripting Tutorial](https://www.shellscript.sh/)

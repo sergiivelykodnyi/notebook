@@ -8,8 +8,6 @@ keywords:
 description: "Collection of sources about Shell Script"
 ---
 
-Test posts text one more
-
 ## Sources
 
 * [Shell Scripting Tutorial](https://www.tutorialspoint.com/unix/shell_scripting.htm)

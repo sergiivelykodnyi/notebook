@@ -1,7 +1,8 @@
 module.exports = {
+  pathPrefix: "/wiki",
   siteMetadata: {
     title: `Wiki`,
-    description: ``,
+    description: `Collection of sources about development`,
     author: `Sergii Velykodnyi`,
   },
   plugins: [

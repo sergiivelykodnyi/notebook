@@ -4,6 +4,8 @@ date: "2020-11-23"
 keywords:
   - CSS
 description: "Collection of sources about CSS Gradients"
+layout: layouts/base.njk
+permalink: "/{{ title | slug }}/index.html"
 ---
 
 ## Sources

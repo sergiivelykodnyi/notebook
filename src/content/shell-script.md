@@ -6,6 +6,8 @@ keywords:
   - Unix
   - Shell Script
 description: "Collection of sources about Shell Script"
+layout: layouts/base.njk
+permalink: "/{{ title | slug }}/index.html"
 ---
 
 ## Sources

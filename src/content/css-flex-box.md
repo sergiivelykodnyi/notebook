@@ -4,6 +4,8 @@ date: "2020-07-04"
 keywords:
   - CSS
 description: "Collection of sources about CSS Grid Layout"
+layout: layouts/base.njk
+permalink: "/{{ title | slug }}/index.html"
 ---
 
 ## Sources

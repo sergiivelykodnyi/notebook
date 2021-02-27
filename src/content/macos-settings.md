@@ -4,6 +4,8 @@ date: "2020-07-27"
 keywords:
   - macOS
 description: "List of tips how to tune macOS"
+layout: layouts/base.njk
+permalink: "/{{ title | slug }}/index.html"
 ---
 
 # macOS - Settings

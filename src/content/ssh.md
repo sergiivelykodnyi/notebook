@@ -4,6 +4,8 @@ date: "2020-07-25"
 keywords:
   - SSH
 description: "SSH stuff"
+layout: layouts/base.njk
+permalink: "/{{ title | slug }}/index.html"
 ---
 
 ## Permissions

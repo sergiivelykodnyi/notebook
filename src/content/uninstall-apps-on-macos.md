@@ -4,6 +4,8 @@ date: "2020-07-27"
 keywords:
   - macOS
 description: "List of tips how to uninstalling apps on macOs"
+layout: layouts/base.njk
+permalink: "/{{ title | slug }}/index.html"
 ---
 
 # Uninstall apps on macOS

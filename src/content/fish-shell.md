@@ -6,6 +6,8 @@ keywords:
   - Unix
   - Fish Shell
 description: "Collection of sources about Fish Shell"
+layout: layouts/base.njk
+permalink: "/{{ title | slug }}/index.html"
 ---
 
 ## Sources

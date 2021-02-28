@@ -4,11 +4,11 @@ date: "2020-07-25"
 keywords:
   - SSH
 description: "SSH stuff"
-layout: layouts/base.njk
+layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"
 ---
 
-## Permissions
+### Permissions
 
 ```shell
 chmod 755 ~/.ssh

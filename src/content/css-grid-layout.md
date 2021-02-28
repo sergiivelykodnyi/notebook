@@ -4,11 +4,11 @@ date: "2020-07-04"
 keywords:
   - CSS
 description: "Collection of sources about CSS Grid Layout"
-layout: layouts/base.njk
+layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"
 ---
 
-## Sources
+### Sources
 
 * [Grid Cheatsheet](https://yoksel.github.io/grid-cheatsheet/)
 * [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)

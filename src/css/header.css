@@ -1,0 +1,11 @@
+.header__row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.header__title a {
+  color: currentColor;
+
+  text-decoration: none;
+}

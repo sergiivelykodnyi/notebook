@@ -1,5 +1,5 @@
 ---
-title: "Uninstall apps on macOS"
+title: "macOS - Uninstall Apps"
 date: "2020-07-27"
 keywords:
   - macOS

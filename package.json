@@ -18,8 +18,8 @@
     "build": "",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run clean && npm run serve",
-    "serve": "DEBUG=Eleventy* eleventy --serve --input=src --output=dist --formats=html,njk,md,gif,png,jpg,webp,css,js",
-    "clean": "rm -rf dist",
+    "serve": "eleventy --serve",
+    "clean": "rm -rf _site",
     "test": "echo \"Write tests!\" && exit 1",
     "deploy": ""
   },

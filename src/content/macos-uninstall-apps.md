@@ -8,6 +8,6 @@ layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"
 ---
 
-### Sources
+## Sources
 
 * [Uninstall Microsoft Office](https://support.microsoft.com/en-us/office/uninstall-office-for-mac-eefa1199-5b58-43af-8a3d-b73dc1a8cae3#ID0EAABAAA=Newer_versions)

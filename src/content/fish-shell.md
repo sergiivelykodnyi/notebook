@@ -10,7 +10,7 @@ layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"
 ---
 
-### Sources
+## Sources
 
 * [Docs](https://fishshell.com/docs/current/index.html)
 * [Commands](https://fishshell.com/docs/current/commands.html)

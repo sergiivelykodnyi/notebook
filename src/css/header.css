@@ -7,19 +7,19 @@
 .header__title {
   margin: 0;
 
-  font-size: 2.369rem;
+  font-size: var(--font-size-large);
 }
 
 
 @media(min-width: 768px) {
   .header__title {
-    font-size: 3.157rem;
+    font-size: var(--font-size-huge);
   }
 }
 
 @media(min-width: 980px) {
   .header__title {
-    font-size: 4.209rem;
+    font-size: var(--font-size-massive);
   }
 }
 

@@ -8,6 +8,6 @@ layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"
 ---
 
-### Sources
+## Sources
 
 * [Dev Fonts](https://devfonts.gafi.dev/)

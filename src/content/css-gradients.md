@@ -8,6 +8,6 @@ layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"
 ---
 
-### Sources
+## Sources
 
 * [A Complete Guide to CSS Gradients](https://css-tricks.com/a-complete-guide-to-css-gradients/)

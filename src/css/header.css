@@ -4,8 +4,31 @@
   gap: 1rem;
 }
 
+.header__title {
+  margin: 0;
+
+  font-size: 2.369rem;
+}
+
+
+@media(min-width: 768px) {
+  .header__title {
+    font-size: 3.157rem;
+  }
+}
+
+@media(min-width: 980px) {
+  .header__title {
+    font-size: 4.209rem;
+  }
+}
+
 .header__title a {
   color: currentColor;
 
   text-decoration: none;
+}
+
+.header__description {
+  margin: 0;
 }

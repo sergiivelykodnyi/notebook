@@ -1,14 +1,14 @@
 ---
 title: "macOS - Settings"
 date: "2020-07-27"
-keywords:
+tags:
   - macOS
 description: "List of tips how to tune macOS"
+layout: layouts/post.njk
+permalink: "/{{ title | slug }}/index.html"
 ---
 
-# macOS - Settings
-
-## Add dock separators
+### Add dock separators
 
 ```shell
 # add one separator.

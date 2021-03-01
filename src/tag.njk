@@ -1,0 +1,14 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+permalink: /tags/{{ tag | slug }}/
+layout: layouts/base.njk
+---
+
+<article>
+  <h1>Tag: {{ tag }}</h1>
+  {% set posts = collections[ tag ] %}
+  {% include "partials/list-of-posts.njk" %}
+</article>

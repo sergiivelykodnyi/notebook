@@ -1,0 +1,9 @@
+---
+layout: layouts/base.njk
+---
+
+<article>
+  <h1>Posts</h1>
+  {% set posts = collections.posts %}
+  {% include "partials/list-of-posts.njk" %}
+</article>

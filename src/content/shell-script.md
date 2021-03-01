@@ -1,7 +1,7 @@
 ---
 title: "Shell Script"
 date: "2020-07-04"
-keywords:
+tags:
   - Linux
   - Unix
   - Shell Script

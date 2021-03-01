@@ -1,8 +1,8 @@
 ---
 title: "SSH"
 date: "2020-07-25"
-keywords:
-  - SSH
+tags:
+  - ssh
 description: "SSH stuff"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"

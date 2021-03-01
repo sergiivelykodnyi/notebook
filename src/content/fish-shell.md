@@ -1,7 +1,7 @@
 ---
 title: "Fish Shell"
 date: "2020-07-05"
-keywords:
+tags:
   - Linux
   - Unix
   - Fish Shell

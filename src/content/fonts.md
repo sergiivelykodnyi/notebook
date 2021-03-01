@@ -1,7 +1,7 @@
 ---
 title: "Fonts"
 date: "2020-11-23"
-keywords:
+tags:
   - fonts
 description: "Collection of fonts sources"
 layout: layouts/post.njk

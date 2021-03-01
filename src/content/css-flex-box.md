@@ -1,8 +1,8 @@
 ---
 title: "CSS FlexBox"
 date: "2020-07-04"
-keywords:
-  - CSS
+tags:
+  - css
 description: "Collection of sources about CSS Grid Layout"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"

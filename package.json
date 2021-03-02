@@ -15,13 +15,13 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run clean && npm run serve",
-    "serve": "eleventy --serve",
+    "build": "npm run clean && eleventy --pathprefix \"wiki\"",
     "clean": "rm -rf _site",
-    "test": "echo \"Write tests!\" && exit 1",
-    "deploy": ""
+    "deploy": "npm run build && gh-pages -d _site",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "serve": "eleventy --serve",
+    "start": "npm run clean && npm run serve",
+    "test": "echo \"Write tests!\" && exit 1"
   },
   "repository": {
     "type": "git",

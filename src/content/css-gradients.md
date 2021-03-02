@@ -2,7 +2,7 @@
 title: "CSS Gradients"
 date: "2020-11-23"
 tags:
-  - css
+  - CSS
 description: "Collection of sources about CSS Gradients"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"

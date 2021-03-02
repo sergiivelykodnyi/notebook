@@ -1,1 +1,0 @@
-{"componentChunkName":"component---src-templates-post-js","path":"/ssh/","result":{"data":{"markdownRemark":{"html":"<h2>Permissions</h2>\n<pre><code class=\"language-shell\">chmod 755 ~/.ssh\nchmod 600 ~/.ssh/id_rsa ~/.ssh/id_rsa.pub\nchmod 644 ~/.ssh/known_hosts\n</code></pre>","frontmatter":{"title":"SSH"}}},"pageContext":{"slug":"/ssh/"}}}

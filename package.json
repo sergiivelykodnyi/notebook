@@ -10,6 +10,8 @@
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "gh-pages": "^3.1.0",
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.4",
     "prettier": "2.2.1"
   },
   "keywords": [
@@ -21,7 +23,7 @@
     "clean": "rm -rf _site",
     "deploy": "npm run build && gh-pages -d _site",
     "format": "prettier --write .",
-    "lint": "npx eslint . --fix",
+    "lint": "eslint --fix .",
     "serve": "eleventy --serve",
     "start": "npm run clean && npm run serve",
     "test": "echo \"Write tests!\" && exit 1"
@@ -32,5 +34,10 @@
   },
   "bugs": {
     "url": "https://github.com/sergiivelykodnyi/wiki/issues"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }

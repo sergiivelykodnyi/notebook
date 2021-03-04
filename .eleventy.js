@@ -15,9 +15,7 @@ module.exports = function (eleventyConfig) {
     return collectionApi
       .getAll()
       .filter(filterMarkdown)
-      .sort(function (a, b) {
-        return a.data.title.localeCompare(b.data.title);
-      });
+      .sort((a, b) => a.data.title.localeCompare(b.data.title));
   });
 
   eleventyConfig.addCollection("tags", (collectionApi) => {

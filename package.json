@@ -5,10 +5,12 @@
   "version": "1.1.0",
   "author": "Sergii Velykodnyi <sergii.velykodnyi@gmail.com>",
   "homepage": "https://sergiivelykodnyi.github.io/wiki/",
-  "dependencies": {},
   "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
     "gh-pages": "^3.1.0",
-    "prettier": "^2.2.1"
+    "prettier": "2.2.1"
   },
   "keywords": [
     "wiki"
@@ -18,7 +20,8 @@
     "build": "npm run clean && eleventy --pathprefix \"wiki\"",
     "clean": "rm -rf _site",
     "deploy": "npm run build && gh-pages -d _site",
-    "format": "prettier --write \"src/**/*.{js,json,css,html,md}\"",
+    "format": "prettier --write .",
+    "lint": "npx eslint . --fix",
     "serve": "eleventy --serve",
     "start": "npm run clean && npm run serve",
     "test": "echo \"Write tests!\" && exit 1"

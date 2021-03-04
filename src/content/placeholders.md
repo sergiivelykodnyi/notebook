@@ -10,5 +10,5 @@ permalink: "/{{ title | slug }}/index.html"
 
 ## Sources
 
-* [Lorem Picsum](https://picsum.photos)
-* [Unsplash Source](https://source.unsplash.com)
+- [Lorem Picsum](https://picsum.photos)
+- [Unsplash Source](https://source.unsplash.com)

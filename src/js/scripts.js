@@ -4,7 +4,7 @@ function themeToggleHandler() {
   const themeMap = new Map([
     ["light", "dark"],
     ["dark", "sepia"],
-    ["sepia", "light"]
+    ["sepia", "light"],
   ]);
   htmlElement.setAttribute("theme", themeMap.get(theme));
 }

@@ -11,5 +11,5 @@ permalink: "/{{ title | slug }}/index.html"
 
 ## Sources
 
-* [JavaScript and TypeScript tooling overview](https://tooling.js.org)
-* [Create App](https://createapp.dev)
+- [JavaScript and TypeScript tooling overview](https://tooling.js.org)
+- [Create App](https://createapp.dev)

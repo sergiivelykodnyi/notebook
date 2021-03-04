@@ -41,7 +41,7 @@ body {
   line-height: var(--line-height-large);
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   body {
     font-size: var(--font-size-medium);
   }
@@ -51,12 +51,17 @@ a {
   color: #61afef;
 }
 
-ul, p {
+ul,
+p {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 3rem 0 1.38rem;
   font-family: var(--font-family-sans-serif);
   line-height: var(--line-height-small);
@@ -75,7 +80,9 @@ h1 {
 
 /* h5 {font-size: var(--font-size-tiny);} */
 
-small {font-size: var(--font-size-micro);}
+small {
+  font-size: var(--font-size-micro);
+}
 
 pre > code {
   font-family: var(--font-family-monospace);

@@ -10,5 +10,5 @@ permalink: "/{{ title | slug }}/index.html"
 
 ## Sources
 
-* [Dev Fonts](https://devfonts.gafi.dev/)
-* [Google Fonts](https://fonts.google.com/)
+- [Dev Fonts](https://devfonts.gafi.dev/)
+- [Google Fonts](https://fonts.google.com/)

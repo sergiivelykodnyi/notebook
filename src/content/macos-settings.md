@@ -16,4 +16,3 @@ $ defaults write com.apple.dock persistent-apps -array-add '{ "tile-type" = "spa
 # reload dock.
 $ killall Dock
 ```
-

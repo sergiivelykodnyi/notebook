@@ -10,4 +10,4 @@ permalink: "/{{ title | slug }}/index.html"
 
 ## Sources
 
-* [A Complete Guide to CSS Gradients](https://css-tricks.com/a-complete-guide-to-css-gradients/)
+- [A Complete Guide to CSS Gradients](https://css-tricks.com/a-complete-guide-to-css-gradients/)

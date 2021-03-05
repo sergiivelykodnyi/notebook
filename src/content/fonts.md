@@ -2,7 +2,7 @@
 title: "Fonts"
 date: "2020-11-23"
 tags:
-  - Fonts
+  - Font
 description: "Collection of fonts sources"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"

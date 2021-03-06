@@ -14,3 +14,7 @@ permalink: "/{{ title | slug }}/index.html"
 - [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [CSS Grid Layout Module Level 1](https://www.w3.org/TR/css-grid-1)
 - [CSS Grid Layout Module Level 2](https://www.w3.org/TR/css-grid-2/)
+
+## Videos
+
+- [10 modern layouts in 1 line of CSS](https://youtu.be/qm0IfG1GyZU)

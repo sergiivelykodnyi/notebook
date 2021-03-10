@@ -13,6 +13,6 @@ permalink: "/{{ title | slug }}/index.html"
 ```shell
 # Install the Xcode toolkit.
 $ xcode-select --install
-# If that doesn’t work, force it to reset. You’ll need sudo access for this one.
-$ killall Dock
+# If that doesn’t work, force it to reset.
+$ xcode-select --reset
 ```

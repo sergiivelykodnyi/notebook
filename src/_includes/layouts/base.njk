@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
   </head>
   <body>
+    {% include 'partials/header.njk' %}
     <div class="layout">
-      {% include 'partials/header.njk' %}
       {% include 'partials/content.njk' %}
+      {% include 'partials/sidebar.njk' %}
       {% include 'partials/footer.njk' %}
     </div>
     <script src="{{ '/js/scripts.js' | url }}"></script>

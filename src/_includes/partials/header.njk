@@ -9,16 +9,4 @@
       </svg>
     </button>
   </div>
-  <p class="header__description">{{site.description}}</p>
-  <section>
-    <h2>Tags</h2>
-    <ul>
-      {%- for tag in collections.tags -%}
-        {% set path = '/tags/' + tag | slug %}
-        <li>
-          <a href="{{ path | url }}">{{ tag }}</a>
-        </li>
-      {%- endfor -%}
-    </ul>
-  </section>
 </header>

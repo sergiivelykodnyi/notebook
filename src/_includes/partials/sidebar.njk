@@ -1,0 +1,13 @@
+<header class="sidebar">
+  <section>
+    <h2 class="sidebar__title">Tags</h2>
+    <ul>
+      {%- for tag in collections.tags -%}
+        {% set path = '/tags/' + tag | slug %}
+        <li>
+          <a href="{{ path | url }}">{{ tag }}</a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </section>
+</header>

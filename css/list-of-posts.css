@@ -1,0 +1,15 @@
+.post-preview + .post-preview {
+  margin-top: 3rem;
+}
+
+.post-preview__title {
+  margin: 0;
+}
+
+.post-preview__title a {
+  color: currentColor;
+}
+
+.post-preview__description {
+  margin-bottom: 0;
+}

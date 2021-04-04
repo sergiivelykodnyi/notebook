@@ -1,3 +1,15 @@
-.sidebar__title {
-  margin: 0 0 1.38rem;
+.tags {
+  margin-top: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tag a {
+  color: currentColor;
 }

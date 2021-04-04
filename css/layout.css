@@ -1,9 +1,7 @@
 .layout {
   display: grid;
   grid-template-rows:
-    min-content
     1fr
-    min-content
     min-content;
   gap: 1rem;
 
@@ -51,6 +49,6 @@
   .footer {
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row: 3;
+    grid-row: 2;
   }
 }

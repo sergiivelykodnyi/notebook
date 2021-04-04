@@ -5,6 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <title>macOS - Troubleshooting | Wiki </title>
+    <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
     <link rel="stylesheet" href="/wiki/css/style.css">
   </head>
   <body>
@@ -34,15 +35,11 @@
     <div class="layout">
       <main class="main">
   
-<article>
+<article class="post">
   <h1>macOS - Troubleshooting</h1>
   <p>List of tips how to fix macOS</p>
   <h3>xcrun: error: invalid active developer path, missing xcrun</h3>
-<pre><code class="language-shell"># Install the Xcode toolkit.
-$ xcode-select --install
-# If that doesn’t work, force it to reset.
-$ xcode-select --reset
-</code></pre>
+<pre class="language-shell"><code class="language-shell"><span class="token comment"># Install the Xcode toolkit.</span><br>$ xcode-select --install<br><span class="token comment"># If that doesn’t work, force it to reset.</span><br>$ xcode-select --reset</code></pre>
 
 </article>
 

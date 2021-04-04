@@ -13,3 +13,11 @@
 .post-preview__description {
   margin-bottom: 0;
 }
+
+.post {
+  max-width: 960px;
+}
+
+.post p {
+  max-width: 720px;
+}

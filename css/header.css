@@ -1,13 +1,8 @@
 .header {
   height: 65px;
 
-  background-color: var(--color-text);
-  color: var(--color-background);
-}
-
-[theme="dark"] .header {
-  --color-background: #adbac7;
-  --color-text: #1b1f23;
+  background-color: #111;
+  color: #fff;
 }
 
 .header__row {

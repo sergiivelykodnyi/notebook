@@ -1,16 +1,11 @@
 [theme="light"] {
   --color-background: #fff;
-  --color-text: #24292e;
+  --color-text: #222;
 }
 
 [theme="dark"] {
-  --color-background: #24292e;
-  --color-text: #adbac7;
-}
-
-[theme="sepia"] {
-  --color-background: #f1e7d0;
-  --color-text: #433422;
+  --color-background: #222;
+  --color-text: #fff;
 }
 
 .theme-toggle {
@@ -21,9 +16,7 @@
   height: 32px;
   padding: 0;
   border: 0;
-  border: 0;
-  /* border-radius: 4px; */
   background-color: transparent;
-  color: var(--color-background);
+  color: #fff;
   cursor: pointer;
 }

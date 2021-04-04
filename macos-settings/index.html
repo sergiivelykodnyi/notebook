@@ -5,6 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <title>macOS - Settings | Wiki </title>
+    <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
     <link rel="stylesheet" href="/wiki/css/style.css">
   </head>
   <body>
@@ -34,15 +35,11 @@
     <div class="layout">
       <main class="main">
   
-<article>
+<article class="post">
   <h1>macOS - Settings</h1>
   <p>List of tips how to tune macOS</p>
   <h3>Add dock separators</h3>
-<pre><code class="language-shell"># add one separator.
-$ defaults write com.apple.dock persistent-apps -array-add '{ &quot;tile-type&quot; = &quot;spacer-tile&quot;; }'
-# reload dock.
-$ killall Dock
-</code></pre>
+<pre class="language-shell"><code class="language-shell"><span class="token comment"># add one separator.</span><br>$ defaults <span class="token function">write</span> com.apple.dock persistent-apps -array-add <span class="token string">'{ "tile-type" = "spacer-tile"; }'</span><br><span class="token comment"># reload dock.</span><br>$ <span class="token function">killall</span> Dock</code></pre>
 
 </article>
 

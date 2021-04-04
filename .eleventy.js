@@ -14,7 +14,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
 
   // Copy assets to to site.
-  eleventyConfig.addPassthroughCopy("src/**/*.{gif,png,jpg,webp,css,js}");
+  eleventyConfig.addPassthroughCopy("src/**/*.{gif,svg,png,jpg,webp,css,js}");
 
   eleventyConfig.addCollection("posts", (collectionApi) => {
     return collectionApi

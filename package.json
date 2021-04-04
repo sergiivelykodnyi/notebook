@@ -6,6 +6,7 @@
   "author": "Sergii Velykodnyi <sergii.velykodnyi@gmail.com>",
   "homepage": "https://sergiivelykodnyi.github.io/wiki/",
   "devDependencies": {
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
     "eslint": "^7.21.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-prettier": "^3.3.1",

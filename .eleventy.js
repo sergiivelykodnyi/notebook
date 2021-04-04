@@ -1,3 +1,5 @@
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+
 /**
  * Only return content that was originally a markdown file
  * @param {object} post
@@ -8,6 +10,9 @@ function filterMarkdown(post) {
 }
 
 module.exports = function (eleventyConfig) {
+  // Plugins.
+  eleventyConfig.addPlugin(syntaxHighlight);
+
   // Copy assets to to site.
   eleventyConfig.addPassthroughCopy("src/**/*.{gif,png,jpg,webp,css,js}");
 

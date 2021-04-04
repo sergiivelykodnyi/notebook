@@ -1,5 +1,6 @@
-<ol>
-  {% for post in posts %}
-    <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
-  {% endfor %}
-</ol>
+{% for post in posts %}
+  <article class="post-preview">
+    <h3 class="post-preview__title"><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
+    <p class="post-preview__description">{{ post.data.description }}</p>
+  </article>
+{% endfor %}

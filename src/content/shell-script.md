@@ -2,9 +2,9 @@
 title: "Shell Script"
 date: "2020-07-04"
 tags:
-  - Linux
-  - Unix
-  - Shell Script
+  - linux
+  - unix
+  - shell
 description: "Collection of sources about Shell Script"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"

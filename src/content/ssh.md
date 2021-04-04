@@ -2,7 +2,7 @@
 title: "SSH"
 date: "2020-07-25"
 tags:
-  - SSH
+  - ssh
 description: "SSH stuff"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"

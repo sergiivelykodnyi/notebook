@@ -7,8 +7,6 @@ permalink: /tags/{{ tag | slug }}/
 layout: layouts/base.njk
 ---
 
-<article>
-  <h1>Tag: {{ tag }}</h1>
-  {% set posts = collections[ tag ] %}
-  {% include "partials/list-of-posts.njk" %}
-</article>
+<h1 class="visually-hidden">Tag: {{ tag }}</h1>
+{% set posts = collections[ tag ] %}
+{% include "partials/list-of-posts.njk" %}

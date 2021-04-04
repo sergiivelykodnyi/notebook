@@ -1,13 +1,14 @@
-<header class="sidebar">
+<aside class="sidebar">
   <section>
-    <h2 class="sidebar__title">Tags</h2>
-    <ul>
+    <h2 class="visually-hidden">Tags</h2>
+    <ul class="tags">
       {%- for tag in collections.tags -%}
         {% set path = '/tags/' + tag | slug %}
-        <li>
+        <li class="tag">
+          <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
           <a href="{{ path | url }}">{{ tag }}</a>
         </li>
       {%- endfor -%}
     </ul>
   </section>
-</header>
+</aside>

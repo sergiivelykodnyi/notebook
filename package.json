@@ -2,7 +2,7 @@
   "name": "wiki",
   "private": true,
   "description": "Collection of sources about development",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "Sergii Velykodnyi <sergii.velykodnyi@gmail.com>",
   "homepage": "https://sergiivelykodnyi.github.io/wiki/",
   "devDependencies": {

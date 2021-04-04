@@ -2,7 +2,8 @@
 title: "CSS Grid layout"
 date: "2020-07-04"
 tags:
-  - CSS
+  - css
+  - frontend
 description: "Collection of sources about CSS Grid Layout"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"

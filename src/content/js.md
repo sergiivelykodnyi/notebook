@@ -1,6 +1,6 @@
 ---
 title: "JavaScript"
-date: "2021-03-01"
+date: "2021-04-04"
 tags:
   - javascript
 description: "Collection of articles about JavaScript"

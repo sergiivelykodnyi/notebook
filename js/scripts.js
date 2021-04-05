@@ -6,10 +6,19 @@ function themeToggleHandler() {
     ["dark", "light"],
   ]);
   htmlElement.setAttribute("theme", themeMap.get(theme));
+  sessionStorage.setItem("theme", themeMap.get(theme));
 }
 
-const mq = window.matchMedia("(prefers-color-scheme: dark)");
-const theme = mq.matches ? "dark" : "light";
+function getTheme() {
+  if (sessionStorage.getItem("theme")) {
+    return sessionStorage.getItem("theme");
+  }
+
+  const mq = window.matchMedia("(prefers-color-scheme: dark)");
+  return mq.matches ? "dark" : "light";
+}
+
+const theme = getTheme();
 document.documentElement.setAttribute("theme", theme);
 
 const button = document.getElementById("theme-toggle");

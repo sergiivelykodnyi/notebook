@@ -4,6 +4,7 @@ date: "2021-03-01"
 tags:
   - javascript
   - typescript
+  - tools
 description: "Collection of articles about JavaScript and TypeScript tooling"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"

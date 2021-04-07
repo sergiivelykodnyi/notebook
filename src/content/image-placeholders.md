@@ -3,6 +3,7 @@ title: "Image Placeholders"
 date: "2021-03-02"
 tags:
   - media
+  - graphics
   - frontend
 description: "List of tips how to uninstalling apps on macOS"
 layout: layouts/post.njk

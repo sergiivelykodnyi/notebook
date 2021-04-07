@@ -2,8 +2,9 @@
 title: "Icons"
 date: "2021-03-15"
 tags:
-  - icons
   - frontend
+  - graphics
+  - icons
 description: "Collection of fonts sources"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"

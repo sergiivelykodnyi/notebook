@@ -13,3 +13,7 @@
 .tag a {
   color: currentColor;
 }
+
+.tag a:not(:hover) {
+  text-decoration: none;
+}

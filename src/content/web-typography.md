@@ -6,6 +6,7 @@ tags:
   - html
   - font
   - frontend
+  - typography
 description: "Collection of sources about Web Typography"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"
@@ -13,7 +14,6 @@ permalink: "/{{ title | slug }}/index.html"
 
 ## Sources
 
-- [Dev Fonts](https://devfonts.gafi.dev/)
 - [Google Fonts](https://fonts.google.com/)
 
 ## Articles

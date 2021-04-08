@@ -10,6 +10,10 @@
   color: currentColor;
 }
 
+.post-preview__title a:not(:hover) {
+  text-decoration: none;
+}
+
 .post-preview__description {
   margin-bottom: 0;
 }

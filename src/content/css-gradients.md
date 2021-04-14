@@ -5,6 +5,7 @@ tags:
   - css
   - graphics
   - frontend
+  - web
 description: "Collection of sources about CSS Gradients"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"

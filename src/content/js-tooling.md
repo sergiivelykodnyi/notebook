@@ -5,6 +5,7 @@ tags:
   - javascript
   - typescript
   - tools
+  - web
 description: "Collection of articles about JavaScript and TypeScript tooling"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"

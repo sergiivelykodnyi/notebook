@@ -3,10 +3,11 @@ title: "Web Typography"
 date: "2021-03-05"
 tags:
   - css
-  - html
   - font
   - frontend
+  - html
   - typography
+  - web
 description: "Collection of sources about Web Typography"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"

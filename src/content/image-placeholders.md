@@ -5,6 +5,7 @@ tags:
   - media
   - graphics
   - frontend
+  - web
 description: "List of tips how to uninstalling apps on macOS"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"

@@ -3,6 +3,7 @@ title: "Performance"
 date: "2021-04-04"
 tags:
   - frontend
+  - web
 description: "Performance collection"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"

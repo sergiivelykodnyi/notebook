@@ -2,10 +2,11 @@
 title: "Tools"
 date: "2021-04-07"
 tags:
-  - tools
-  - git
   - frontend
+  - git
   - graphics
+  - tools
+  - web
 description: "List of tools for development"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"

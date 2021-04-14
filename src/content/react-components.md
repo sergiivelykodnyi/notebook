@@ -3,6 +3,8 @@ title: "React components"
 date: "2021-04-04"
 tags:
   - javascript
+  - react
+  - web
 description: "Useful react modules"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"

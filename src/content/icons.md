@@ -5,6 +5,7 @@ tags:
   - frontend
   - graphics
   - icons
+  - web
 description: "Collection of fonts sources"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"

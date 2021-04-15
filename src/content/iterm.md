@@ -2,10 +2,8 @@
 title: "iTerm2"
 date: "2021-04-15"
 tags:
-  - javascript
-  - typescript
   - tools
-  - web
+  - macOS
 description: "Collection sources about iTerm2 terminal"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"

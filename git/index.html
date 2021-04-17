@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <title>Tags | Wiki </title>
+    <title>Git | Wiki </title>
     <link rel="icon" type="image/svg+xml" href="/wiki/img/favicon.svg" />
     <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
     <link rel="stylesheet" href="/wiki/css/style.css">
@@ -36,20 +36,22 @@
     <div class="layout">
       <main class="main">
   
-<h1 class="visually-hidden">Tag: git</h1>
+<article class="post">
+  <h1>Git</h1>
+  <p>Git tips</p>
+  <h2>Git config</h2>
+<p>Show git config</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> config -l</code></pre>
+<p>Only local repository</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> config --local -l</code></pre>
+<p>Set user name and email for local</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> config --local user.name <span class="token string">"Your Name Here"</span><br><span class="token function">git</span> config --local user.email <span class="token string">"your@email.com"</span></code></pre>
+<p>Set user name and email global (<code>~/.gitconfig</code>):</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> config --global user.name <span class="token string">"Your Name Here"</span><br><span class="token function">git</span> config --global user.email <span class="token string">"your@email.com"</span></code></pre>
+<p>Set remote url</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> remote set-url origin git@github.com:username/repo-name.git</code></pre>
 
-
-  <article class="post-preview">
-    <h3 class="post-preview__title"><a href="/wiki/tools/">Tools</a></h3>
-    <p class="post-preview__description">List of tools for development</p>
-  </article>
-
-  <article class="post-preview">
-    <h3 class="post-preview__title"><a href="/wiki/git/">Git</a></h3>
-    <p class="post-preview__description">Git tips</p>
-  </article>
-
-
+</article>
 
 </main>
 

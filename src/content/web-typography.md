@@ -16,6 +16,8 @@ permalink: "/{{ title | slug }}/index.html"
 ## Sources
 
 - [Google Fonts](https://fonts.google.com/)
+- [Typography.js](https://kyleamathews.github.io/typography.js/)
+- [Prism](https://prismjs.com/)
 
 ## Articles
 

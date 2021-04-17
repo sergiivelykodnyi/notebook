@@ -1,4 +1,5 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const CleanCSS = require("clean-css");
 
 /**
  * Only return content that was originally a markdown file
@@ -13,8 +14,13 @@ module.exports = function (eleventyConfig) {
   // Plugins.
   eleventyConfig.addPlugin(syntaxHighlight);
 
+  // Filters.
+  eleventyConfig.addFilter("cssmin", function (code) {
+    return new CleanCSS({}).minify(code).styles;
+  });
+
   // Copy assets to to site.
-  eleventyConfig.addPassthroughCopy("src/**/*.{gif,svg,png,jpg,webp,css,js}");
+  eleventyConfig.addPassthroughCopy("src/**/*.{gif,svg,png,jpg,webp,js}");
 
   eleventyConfig.addCollection("posts", (collectionApi) => {
     return collectionApi

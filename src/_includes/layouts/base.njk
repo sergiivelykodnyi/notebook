@@ -7,7 +7,22 @@
     <title>{{ title }}{% if page.url != '/' %} | {{ site.name }} {% endif %}</title>
     <link rel="icon" type="image/svg+xml" href="{{ '/img/favicon.svg' | url }}" />
     <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
+
+    
+    {# Include CSS #}
+    {% set css %}
+      {% include 'css/common.css' %}
+      {% include 'css/theme-toggle.css' %}
+      {% include 'css/layout.css' %}
+      {% include 'css/header.css' %}
+      {% include 'css/sidebar.css' %}
+      {% include 'css/footer.css' %}
+      {% include 'css/post.css' %}
+    {% endset %}
+    <style>
+      {{ css | cssmin | safe }}
+    </style>
+
   </head>
   <body>
     {% include 'partials/icons.njk' %}

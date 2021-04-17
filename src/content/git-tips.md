@@ -1,5 +1,5 @@
 ---
-title: "Git"
+title: "Git Tip"
 date: "2021-04-16"
 tags:
   - git
@@ -13,32 +13,32 @@ permalink: "/{{ title | slug }}/index.html"
 
 Show git config
 
-```bash
+```shell
 git config -l
 ```
 
 Only local repository
 
-```bash
+```shell
 git config --local -l
 ```
 
 Set user name and email for local
 
-```bash
+```shell
 git config --local user.name "Your Name Here"
 git config --local user.email "your@email.com"
 ```
 
-Set user name and email global (`~/.gitconfig`):
+Set user name and email to global `~/.gitconfig`:
 
-```bash
+```shell
 git config --global user.name "Your Name Here"
 git config --global user.email "your@email.com"
 ```
 
 Set remote url
 
-```bash
+```shell
 git remote set-url origin git@github.com:username/repo-name.git
 ```

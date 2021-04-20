@@ -42,3 +42,14 @@ Set remote url
 ```shell
 git remote set-url origin git@github.com:username/repo-name.git
 ```
+
+## Git branches
+
+If mater branch was renamed on GitHub
+
+```shell
+git branch -m master main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
+```

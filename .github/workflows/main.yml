@@ -37,7 +37,12 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       # Runs a set of commands using the runners shell
-      - name: Install dependencies & deploy
+      - name: Install dependencies & build
         run: |
           npm ci
+          npm run build
+      - name: Deploy
+        run: |
+          git config --global user.email "sergii.velykodnyi@gmail.com"
+          git config --global user.name "Sergii Velykodnyi"
           npm run deploy

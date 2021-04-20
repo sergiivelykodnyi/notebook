@@ -23,7 +23,7 @@
   "scripts": {
     "build": "npm run clean && npx @11ty/eleventy --pathprefix \"wiki\"",
     "clean": "rm -rf _site",
-    "deploy": "npm run build && gh-pages -d _site",
+    "deploy": "gh-pages -d _site",
     "format": "prettier --write .",
     "lint": "eslint --fix .",
     "serve": "npx @11ty/eleventy --serve",

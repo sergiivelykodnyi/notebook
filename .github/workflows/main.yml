@@ -13,8 +13,6 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-permissions: read-all
-
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -44,7 +42,7 @@ jobs:
           npm ci
           npm run build
       - name: Deploy
-        run: |
-          git config --global user.email "sergii.velykodnyi@gmail.com"
-          git config --global user.name "Sergii Velykodnyi"
-          npm run deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site

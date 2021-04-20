@@ -57,6 +57,9 @@
 <pre class="language-shell"><code class="language-shell"><span class="token function">git</span> config --global user.name <span class="token string">"Your Name Here"</span><br><span class="token function">git</span> config --global user.email <span class="token string">"your@email.com"</span></code></pre>
 <p>Set remote url</p>
 <pre class="language-shell"><code class="language-shell"><span class="token function">git</span> remote set-url origin git@github.com:username/repo-name.git</code></pre>
+<h2>Git branches</h2>
+<p>If mater branch was renamed on GitHub</p>
+<pre class="language-shell"><code class="language-shell"><span class="token function">git</span> branch -m master main<br><span class="token function">git</span> fetch origin<br><span class="token function">git</span> branch -u origin/main main<br><span class="token function">git</span> remote set-head origin -a</code></pre>
 
 </article>
 

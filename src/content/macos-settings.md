@@ -10,9 +10,14 @@ permalink: "/{{ title | slug }}/index.html"
 
 ### Add dock separators
 
+Add one separator.
+
 ```shell
-# add one separator.
-$ defaults write com.apple.dock persistent-apps -array-add '{ "tile-type" = "spacer-tile"; }'
-# reload dock.
-$ killall Dock
+defaults write com.apple.dock persistent-apps -array-add '{ "tile-type" = "spacer-tile"; }'
+```
+
+Reload dock.
+
+```shell
+killall Dock
 ```

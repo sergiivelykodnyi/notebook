@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.language }}">
+<html class="no-js-modules" lang="{{ site.language }}">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
@@ -8,7 +8,11 @@
     <link rel="icon" type="image/svg+xml" href="{{ '/img/favicon.svg' | url }}" />
     <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
 
-    
+    {# Check JS Modules support #}
+    <script type="module">
+      document.documentElement.classList.replace('no-js-modules', 'js-modules');
+    </script>
+
     {# Include CSS #}
     {% set css %}
       {% include 'css/common.css' %}
@@ -31,6 +35,6 @@
       {% include 'partials/sidebar.njk' %}
       {% include 'partials/footer.njk' %}
     </div>
-    <script src="{{ '/js/scripts.js' | url }}"></script>
+    <script src="{{ '/js/theme-toggle.module.js' | url }}" type="module"></script>
   </body>
 </html>

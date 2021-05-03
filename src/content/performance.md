@@ -1,5 +1,5 @@
 ---
-title: "Performance"
+title: "Web Performance"
 date: "2021-04-04"
 tags:
   - frontend

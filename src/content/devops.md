@@ -4,7 +4,7 @@ date: "2021-04-28"
 tags:
   - devops
   - web
-description: "Collection of sources about DevOps"
+description: "DevOps source collection"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"
 ---

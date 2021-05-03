@@ -8,7 +8,7 @@ tags:
   - html
   - typography
   - web
-description: "Collection of sources about Web Typography"
+description: "Web Typography source collection"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"
 ---

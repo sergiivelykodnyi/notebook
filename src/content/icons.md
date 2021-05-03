@@ -6,7 +6,7 @@ tags:
   - graphics
   - icons
   - web
-description: "Collection of fonts sources"
+description: "Icons source collection"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"
 ---

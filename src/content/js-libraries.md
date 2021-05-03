@@ -4,7 +4,7 @@ date: "2021-04-26"
 tags:
   - javascript
   - web
-description: "Collection of JavaScript Libraries"
+description: "JavaScript Library collection"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"
 ---

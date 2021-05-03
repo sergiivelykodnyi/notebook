@@ -4,7 +4,7 @@ date: "2021-04-04"
 tags:
   - indieweb
   - web
-description: "Collation of sources about IndieWeb"
+description: "IndieWeb source collection"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"
 ---

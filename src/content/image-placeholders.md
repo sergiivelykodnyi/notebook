@@ -6,7 +6,7 @@ tags:
   - graphics
   - frontend
   - web
-description: "List of tips how to uninstalling apps on macOS"
+description: "Image Placeholders source collection"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"
 ---

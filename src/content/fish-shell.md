@@ -5,7 +5,7 @@ tags:
   - linux
   - unix
   - fish
-description: "Collection of sources about Fish Shell"
+description: "Fish Shell source collection"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"
 ---

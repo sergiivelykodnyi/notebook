@@ -4,7 +4,7 @@ date: "2021-04-15"
 tags:
   - tools
   - macOS
-description: "Collection sources about iTerm2 terminal"
+description: "iTerm2 source collection"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"
 ---

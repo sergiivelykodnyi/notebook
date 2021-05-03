@@ -5,7 +5,7 @@ tags:
   - linux
   - unix
   - shell
-description: "Collection of sources about Shell Script"
+description: "Shell Script source collection"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"
 ---

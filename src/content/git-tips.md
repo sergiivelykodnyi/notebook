@@ -4,7 +4,7 @@ date: "2021-04-16"
 tags:
   - git
   - tools
-description: "Git tips"
+description: ""
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"
 ---

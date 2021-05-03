@@ -4,16 +4,20 @@
   --font-mono: "PT Mono", Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 }
 
-[theme="light"] {
-  --color-background: #fff;
-  --color-background-code: #efefef;
-  --color-text: #222;
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-background: #fff;
+    --color-background-code: #efefef;
+    --color-text: #222;
+  }
 }
 
-[theme="dark"] {
-  --color-background: #222;
-  --color-background-code: #000;
-  --color-text: #fff;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #222;
+    --color-background-code: #000;
+    --color-text: #fff;
+  }
 }
 
 html {

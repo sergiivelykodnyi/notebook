@@ -1,3 +1,9 @@
+:root {
+  --font-sans: "PT Sans", sans-serif;
+  --font-serif: "PT Serif", serif;
+  --font-mono: "PT Mono", Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}
+
 [theme="light"] {
   --color-background: #fff;
   --color-background-code: #efefef;
@@ -12,7 +18,7 @@
 
 html {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: var(--font-sans);
   font-size: 20px;
 }
 
@@ -48,6 +54,8 @@ h4,
 h5,
 h6 {
   margin: 2rem 0 1rem;
+
+  font-family: var(--font-serif);
   line-height: 1.25;
 }
 
@@ -57,13 +65,13 @@ code {
   border-radius: 0.15em;
   background-color: var(--color-background-code);
 
-  font-family: monospace;
+  font-family: var(--font-mono);
   font-size: 0.8rem;
 }
 
 code[class*="language-"] {
   padding: 0;
-  font-family: monospace;
+  font-family: var(--font-mono);
   font-size: 0.8rem;
 }
 

@@ -5,7 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <title>HTML | Wiki </title>
-    <link rel="icon" type="image/svg+xml" href="/wiki/img/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/img/favicon.svg" />
     <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
 
     
@@ -34,7 +34,7 @@
     <header class="header">
   <div class="header__row">
     <h1 class="header__title">
-      <a href="/wiki/">Wiki</a>
+      <a href="/">Wiki</a>
     </h1>
     <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toogle Theme">
       <svg style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -49,7 +49,7 @@
   
 <article class="post">
   <h1>HTML</h1>
-  <p>HTML sources</p>
+  <p>HTML source collection</p>
   <h2>Boilerplate</h2>
 <pre class="language-shell"><code class="language-shell"><span class="token operator">&lt;</span><span class="token operator">!</span>DOCTYPE html<span class="token operator">></span><br><span class="token operator">&lt;</span>html <span class="token assign-left variable">lang</span><span class="token operator">=</span><span class="token string">"en"</span><span class="token operator">></span><br>  <span class="token operator">&lt;</span>head<span class="token operator">></span><br>    <span class="token operator">&lt;</span>meta <span class="token assign-left variable">charset</span><span class="token operator">=</span><span class="token string">"utf-8"</span> /<span class="token operator">></span><br>    <span class="token operator">&lt;</span>meta http-equiv<span class="token operator">=</span><span class="token string">"x-ua-compatible"</span> <span class="token assign-left variable">content</span><span class="token operator">=</span><span class="token string">"ie=edge,chrome=1"</span> /<span class="token operator">></span><br>    <span class="token operator">&lt;</span>meta <span class="token assign-left variable">name</span><span class="token operator">=</span><span class="token string">"viewport"</span> <span class="token assign-left variable">content</span><span class="token operator">=</span><span class="token string">"width=device-width, initial-scale=1, minimal-ui"</span> /<span class="token operator">></span><br><br>    <span class="token operator">&lt;</span>title<span class="token operator">></span>Unique page title - My Site<span class="token operator">&lt;</span>/title<span class="token operator">></span><br><br>    <span class="token operator">&lt;</span>link <span class="token assign-left variable">rel</span><span class="token operator">=</span><span class="token string">"stylesheet"</span> <span class="token assign-left variable">href</span><span class="token operator">=</span><span class="token string">"/css/styles.css"</span> /<span class="token operator">></span><br><br>    <span class="token operator">&lt;</span>meta <span class="token assign-left variable">name</span><span class="token operator">=</span><span class="token string">"description"</span> <span class="token assign-left variable">content</span><span class="token operator">=</span><span class="token string">"Page description"</span> /<span class="token operator">></span><br>    <span class="token operator">&lt;</span>meta <span class="token assign-left variable">property</span><span class="token operator">=</span><span class="token string">"og:title"</span> <span class="token assign-left variable">content</span><span class="token operator">=</span><span class="token string">"Unique page title - My Site"</span> /<span class="token operator">></span><br>    <span class="token operator">&lt;</span>meta <span class="token assign-left variable">property</span><span class="token operator">=</span><span class="token string">"og:description"</span> <span class="token assign-left variable">content</span><span class="token operator">=</span><span class="token string">"Page description"</span> /<span class="token operator">></span><br>    <span class="token operator">&lt;</span>meta <span class="token assign-left variable">property</span><span class="token operator">=</span><span class="token string">"og:image"</span> <span class="token assign-left variable">content</span><span class="token operator">=</span><span class="token string">"https://www.mywebsite.com/image.jpg"</span> /<span class="token operator">></span><br>    <span class="token operator">&lt;</span>meta <span class="token assign-left variable">property</span><span class="token operator">=</span><span class="token string">"og:image:alt"</span> <span class="token assign-left variable">content</span><span class="token operator">=</span><span class="token string">"Image description"</span> /<span class="token operator">></span><br>    <span class="token operator">&lt;</span>meta <span class="token assign-left variable">property</span><span class="token operator">=</span><span class="token string">"og:locale"</span> <span class="token assign-left variable">content</span><span class="token operator">=</span><span class="token string">"en_GB"</span> /<span class="token operator">></span><br>    <span class="token operator">&lt;</span>meta <span class="token assign-left variable">property</span><span class="token operator">=</span><span class="token string">"og:type"</span> <span class="token assign-left variable">content</span><span class="token operator">=</span><span class="token string">"website"</span> /<span class="token operator">></span><br>    <span class="token operator">&lt;</span>meta <span class="token assign-left variable">name</span><span class="token operator">=</span><span class="token string">"twitter:card"</span> <span class="token assign-left variable">content</span><span class="token operator">=</span><span class="token string">"summary_large_image"</span> /<span class="token operator">></span><br>    <span class="token operator">&lt;</span>meta <span class="token assign-left variable">property</span><span class="token operator">=</span><span class="token string">"og:url"</span> <span class="token assign-left variable">content</span><span class="token operator">=</span><span class="token string">"https://www.mywebsite.com/page"</span> /<span class="token operator">></span><br>    <span class="token operator">&lt;</span>link <span class="token assign-left variable">rel</span><span class="token operator">=</span><span class="token string">"canonical"</span> <span class="token assign-left variable">href</span><span class="token operator">=</span><span class="token string">"https://www.mywebsite.com/page"</span> /<span class="token operator">></span><br><br>    <span class="token operator">&lt;</span>link <span class="token assign-left variable">rel</span><span class="token operator">=</span><span class="token string">"icon"</span> <span class="token assign-left variable">href</span><span class="token operator">=</span><span class="token string">"/favicon.ico"</span> /<span class="token operator">></span><br>    <span class="token operator">&lt;</span>link <span class="token assign-left variable">rel</span><span class="token operator">=</span><span class="token string">"icon"</span> <span class="token assign-left variable">href</span><span class="token operator">=</span><span class="token string">"/favicon.svg"</span> <span class="token assign-left variable">type</span><span class="token operator">=</span><span class="token string">"image/svg+xml"</span> /<span class="token operator">></span><br>    <span class="token operator">&lt;</span>link <span class="token assign-left variable">rel</span><span class="token operator">=</span><span class="token string">"apple-touch-icon"</span> <span class="token assign-left variable">href</span><span class="token operator">=</span><span class="token string">"/apple-touch-icon.png"</span> /<span class="token operator">></span><br>    <span class="token operator">&lt;</span>link <span class="token assign-left variable">rel</span><span class="token operator">=</span><span class="token string">"manifest"</span> <span class="token assign-left variable">href</span><span class="token operator">=</span><span class="token string">"/my.webmanifest"</span> /<span class="token operator">></span><br>    <span class="token operator">&lt;</span>meta <span class="token assign-left variable">name</span><span class="token operator">=</span><span class="token string">"theme-color"</span> <span class="token assign-left variable">content</span><span class="token operator">=</span><span class="token string">"#FF00FF"</span> /<span class="token operator">></span><br>  <span class="token operator">&lt;</span>/head<span class="token operator">></span><br><br>  <span class="token operator">&lt;</span>body<span class="token operator">></span><br>    <span class="token operator">&lt;</span><span class="token operator">!</span>-- Content --<span class="token operator">></span><br>    <span class="token operator">&lt;</span>script <span class="token assign-left variable">src</span><span class="token operator">=</span><span class="token string">"/js/script.js"</span> <span class="token assign-left variable">type</span><span class="token operator">=</span><span class="token string">"module"</span><span class="token operator">></span><span class="token operator">&lt;</span>/script<span class="token operator">></span><br>  <span class="token operator">&lt;</span>/body<span class="token operator">></span><br><span class="token operator">&lt;</span>/html<span class="token operator">></span></code></pre>
 <h2>Sources</h2>
@@ -67,99 +67,99 @@
     <ul class="tags">
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/11ty">11ty</a>
+          <a href="/tags/11ty">11ty</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/a11y">a11y</a>
+          <a href="/tags/a11y">a11y</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/css">css</a>
+          <a href="/tags/css">css</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/devops">devops</a>
+          <a href="/tags/devops">devops</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/fish">fish</a>
+          <a href="/tags/fish">fish</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/font">font</a>
+          <a href="/tags/font">font</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/frontend">frontend</a>
+          <a href="/tags/frontend">frontend</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/git">git</a>
+          <a href="/tags/git">git</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/graphics">graphics</a>
+          <a href="/tags/graphics">graphics</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/html">html</a>
+          <a href="/tags/html">html</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/icons">icons</a>
+          <a href="/tags/icons">icons</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/indieweb">indieweb</a>
+          <a href="/tags/indieweb">indieweb</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/javascript">javascript</a>
+          <a href="/tags/javascript">javascript</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/linux">linux</a>
+          <a href="/tags/linux">linux</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/macos">macOS</a>
+          <a href="/tags/macos">macOS</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/media">media</a>
+          <a href="/tags/media">media</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/react">react</a>
+          <a href="/tags/react">react</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/shell">shell</a>
+          <a href="/tags/shell">shell</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/ssh">ssh</a>
+          <a href="/tags/ssh">ssh</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/tools">tools</a>
+          <a href="/tags/tools">tools</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/typescript">typescript</a>
+          <a href="/tags/typescript">typescript</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/typography">typography</a>
+          <a href="/tags/typography">typography</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/unix">unix</a>
+          <a href="/tags/unix">unix</a>
         </li>
         <li class="tag">
           <svg class="icon"><use xlink:href="#icon-tag"></use></svg>
-          <a href="/wiki/tags/web">web</a>
+          <a href="/tags/web">web</a>
         </li></ul>
   </section>
 </aside>
@@ -173,6 +173,6 @@
 </footer>
 
     </div>
-    <script src="/wiki/js/theme-toggle.module.js" type="module"></script>
+    <script src="/js/theme-toggle.module.js" type="module"></script>
   </body>
 </html>

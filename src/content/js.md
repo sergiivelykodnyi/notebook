@@ -12,3 +12,5 @@ permalink: "/{{ title | slug }}/index.html"
 ## Sources
 
 - [What is the meaning of this?](https://web.dev/javascript-this/)
+- [Progressive Web Apps](https://web.dev/progressive-web-apps/)
+- [Network reliability](https://web.dev/reliable/)

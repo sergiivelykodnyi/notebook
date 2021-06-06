@@ -1,20 +1,33 @@
-.post-preview + .post-preview {
-  margin-top: 2rem;
+.post-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
 }
 
-.post-preview__title {
+@media (min-width: 768px) {
+  .post-list {
+    columns: 2;
+  }
+}
+
+.post-list__item + .post-list__item {
+  margin-top: 1rem;
+}
+
+.post-list__title {
   margin: 0;
 }
 
-.post-preview__title a {
+.post-list__item a {
   color: currentColor;
 }
 
-.post-preview__title a:not(:hover) {
+.post-list__item a:not(:hover) {
   text-decoration: none;
 }
 
-.post-preview__description {
+.post-list__description {
   margin: 0;
 }
 

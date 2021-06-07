@@ -2,9 +2,11 @@
   {% for post in posts %}
     <li class="post-list__item">
       <h3 class="post-list__title"><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
-      <p class="post-list__description">
-        <em>{{ post.data.description }}</em>
-      </p>
+      {% if post.data.description %}
+        <p class="post-list__description">
+          <em>{{ post.data.description }}</em>
+        </p>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>

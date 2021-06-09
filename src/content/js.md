@@ -11,6 +11,6 @@ permalink: "/{{ title | slug }}/index.html"
 
 ## Sources
 
-- [What is the meaning of this?](https://web.dev/javascript-this/)
-- [Progressive Web Apps](https://web.dev/progressive-web-apps/)
+- [JavaScript Design Patterns](https://www.dofactory.com/javascript/design-patterns)
 - [Network reliability](https://web.dev/reliable/)
+- [What is the meaning of this?](https://web.dev/javascript-this/)

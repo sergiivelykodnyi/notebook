@@ -51,3 +51,16 @@ permalink: "/{{ title | slug }}/index.html"
 ## Sources
 
 - [My current HTML boilerplate](https://www.matuzo.at/blog/html-boilerplate/)
+
+## Snippets
+
+Different icons for light/dark mode.
+
+```html
+<link rel="icon" media="(prefers-color-scheme: dark)" href="/icons/dark.png" />
+<link
+  rel="icon"
+  media="(prefers-color-scheme: light)"
+  href="/icons/light.png"
+/>
+```

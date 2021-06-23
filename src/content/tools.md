@@ -20,8 +20,3 @@ permalink: "/{{ title | slug }}/index.html"
 
 - [commitizen](https://github.com/commitizen/cz-cli)
 - [simple-git-hooks](https://github.com/toplenboren/simple-git-hooks)
-
-## Graphics
-
-- [Free Favicon Maker](https://formito.com/tools/favicon)
-- [Squoosh](https://squoosh.app/) is an image compression web app that allows you to dive into the advanced options provided by various image compressors.

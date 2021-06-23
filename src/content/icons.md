@@ -16,6 +16,7 @@ permalink: "/{{ title | slug }}/index.html"
 - [Google Font - Icons](https://fonts.google.com/icons)
 - [IconSVG](https://iconsvg.xyz)
 - [React Icons](https://react-icons.github.io/react-icons/)
+- [Free Favicon Maker](https://formito.com/tools/favicon)
 
 ## Articles
 

@@ -6,16 +6,18 @@ tags:
   - typescript
   - tools
   - web
-description: "Source collection about tests"
+description: "Source collection about web"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"
 ---
 
 ## Articles
 
-- [Web workers vs Service workers vs Worklets](https://bitsofco.de/web-workers-vs-service-workers-vs-worklets/)
 - [GUI Challenges](https://github.com/argyleink/gui-challenges)
+- [How to Leverage the Fullscreen API… and Style It](https://css-tricks.com/how-to-leverage-the-fullscreen-api-and-style-it/)
 - [Progressive Web Apps](https://web.dev/progressive-web-apps/)
+- [RESTful API Designing guidelines — The best practices](https://hackernoon.com/restful-api-designing-guidelines-the-best-practices-60e1d954e7c9)
+- [Web workers vs Service workers vs Worklets](https://bitsofco.de/web-workers-vs-service-workers-vs-worklets/)
 
 ## Docs
 

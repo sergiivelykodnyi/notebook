@@ -17,6 +17,8 @@ permalink: "/{{ title | slug }}/index.html"
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1" />
+    <meta name="theme-color" content="#fff" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#111" media="(prefers-color-scheme: dark)">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui" />
 
     <title>Unique page title - My Site</title>

@@ -5,7 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <meta name="theme-color" content="#111">
-    <title>Tags | Wiki </title>
+    <title>zsh | Wiki </title>
     <link rel="icon" type="image/svg+xml" href="/wiki/_includes/icons/favicon.svg" />
     <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
 
@@ -41,39 +41,20 @@
     <div class="layout">
       <main class="main">
   
-<h1 class="visually-hidden">Tag: unix</h1>
-
-<ul class="post-list">
-  
-    <li class="post-list__item">
-      <h3 class="post-list__title"><a href="/wiki/shell-script/">Shell Script</a></h3>
-      
-        <p class="post-list__description">
-          <em>Shell Script source collection</em>
-        </p>
-      
-    </li>
-  
-    <li class="post-list__item">
-      <h3 class="post-list__title"><a href="/wiki/fish-shell/">Fish Shell</a></h3>
-      
-        <p class="post-list__description">
-          <em>Fish Shell source collection</em>
-        </p>
-      
-    </li>
-  
-    <li class="post-list__item">
-      <h3 class="post-list__title"><a href="/wiki/zsh/">zsh</a></h3>
-      
-        <p class="post-list__description">
-          <em>zsh source collection</em>
-        </p>
-      
-    </li>
-  
+<article class="post">
+  <h1>zsh</h1>
+  <p>zsh source collection</p>
+  <h2>Sources</h2>
+<ul>
+<li><a href="https://github.com/zsh-users/antigen">Antigen</a></li>
+<li><a href="https://github.com/romkatv/powerlevel10k">Powerlevel10k theme</a></li>
 </ul>
+<h2>Issues</h2>
+<h3>zsh compinit: insecure directories</h3>
+<p><a href="https://stackoverflow.com/questions/13762280/zsh-compinit-insecure-directories">stackoverflow.com</a></p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">chmod</span> -R <span class="token number">755</span> /usr/local/share/zsh<span class="token punctuation">;</span> <span class="token function">sudo</span> <span class="token function">chown</span> -R root:staff /usr/local/share/zsh<span class="token punctuation">;</span></code></pre>
 
+</article>
 
 </main>
 

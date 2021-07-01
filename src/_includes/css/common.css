@@ -5,11 +5,14 @@
   --font-serif: "PT Serif", Georgia, Cambria, "Times New Roman", Times, serif;
   --font-mono: ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Ubuntu Mono",
     "Roboto Mono", Menlo, Monaco, Consolas, monospace;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-accent: #0099ff;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --color-background: #fff;
+    --color-background: var(--color-white);
     --color-background-code: #efefef;
     --color-text: #222;
   }
@@ -18,8 +21,8 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: #222;
-    --color-background-code: #000;
-    --color-text: #fff;
+    --color-background-code: var(--color-black);
+    --color-text: var(--color-white);
   }
 }
 
@@ -45,7 +48,7 @@ body {
 }
 
 a {
-  color: #0099ff;
+  color: var(--color-accent);
 }
 
 ul,

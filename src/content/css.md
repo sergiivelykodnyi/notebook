@@ -20,9 +20,9 @@ permalink: "/{{ title | slug }}/index.html"
 
 ## Animations
 
-[Introduction to Trigonometry](https://tympanus.net/codrops/2021/06/02/trigonometry-in-css-and-javascript-getting-creative-with-trigonometric-functions/)
-[Getting Creative with Trigonometric Functions](https://tympanus.net/codrops/2021/06/02/trigonometry-in-css-and-javascript-getting-creative-with-trigonometric-functions/)
-[Beyond Triangles](https://tympanus.net/codrops/2021/06/04/trigonometry-in-css-and-javascript-beyond-triangles/)
+- [Introduction to Trigonometry](https://tympanus.net/codrops/2021/06/02/trigonometry-in-css-and-javascript-getting-creative-with-trigonometric-functions/)
+- [Getting Creative with Trigonometric Functions](https://tympanus.net/codrops/2021/06/02/trigonometry-in-css-and-javascript-getting-creative-with-trigonometric-functions/)
+- [Beyond Triangles](https://tympanus.net/codrops/2021/06/04/trigonometry-in-css-and-javascript-beyond-triangles/)
 
 ## Custom properties
 

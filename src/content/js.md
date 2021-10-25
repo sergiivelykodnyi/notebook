@@ -16,3 +16,4 @@ permalink: "/{{ title | slug }}/index.html"
 - [JavaScript Design Patterns](https://www.dofactory.com/javascript/design-patterns)
 - [Network reliability](https://web.dev/reliable/)
 - [What is the meaning of this?](https://web.dev/javascript-this/)
+- [How to win at CORS](https://jakearchibald.com/2021/cors/)

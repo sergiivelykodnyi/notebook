@@ -8,6 +8,63 @@
   --color-white: #fff;
   --color-black: #000;
   --color-accent: #0099ff;
+
+  --lt-color-blue-200: #ecf6ff;
+  --lt-color-blue-300: #badfff;
+  --lt-color-blue-400: #5eb5ff;
+  --lt-color-blue-500: #239aff;
+  --lt-color-blue-600: #1978f0;
+  --lt-color-orange-200: #fff7f0;
+  --lt-color-orange-300: #ffe0ad;
+  --lt-color-orange-400: #f5a523;
+  --lt-color-orange-500: #f37b23;
+  --lt-color-orange-600: #e14c0c;
+  --lt-color-red-300: #fcdbe2;
+  --lt-color-red-400: #ff829b;
+  --lt-color-red-500: #f91a47;
+  --lt-color-red-600: #d01941;
+  --lt-color-gray-100: #f8f9fc;
+  --lt-color-gray-200: #f1f3f9;
+  --lt-color-gray-300: #dee3ed;
+  --lt-color-gray-400: #c2c9d6;
+  --lt-color-gray-500: #8f96a3;
+  --lt-color-gray-600: #5e636e;
+  --lt-color-gray-700: #2f3237;
+  --lt-color-gray-800: #1d1e20;
+  --lt-color-gray-900: #111213;
+  --lt-shadowDefault: 0 2px 6px -1px rgba(0, 0, 0, 0.16),
+    0 1px 4px -1px rgba(0, 0, 0, 0.04);
+  --lt-shadowActive: 0 0 8px -2px rgba(0, 0, 0, 0.1),
+    0 6px 20px -3px rgba(0, 0, 0, 0.2);
+  --lt-color-blue-very-light: var(--lt-color-blue-300);
+  --lt-color-blue-light: var(--lt-color-blue-400);
+  --lt-color-blue-default: var(--lt-color-blue-500);
+  --lt-color-blue-dark: var(--lt-color-blue-600);
+  --lt-color-orange-very-light: var(--lt-color-orange-300);
+  --lt-color-orange-light: var(--lt-color-orange-400);
+  --lt-color-orange-default: var(--lt-color-orange-500);
+  --lt-color-orange-dark: var(--lt-color-orange-600);
+  --lt-color-red-very-light: var(--lt-color-red-300);
+  --lt-color-red-light: var(--lt-color-red-400);
+  --lt-color-red-default: var(--lt-color-red-500);
+  --lt-color-red-dark: var(--lt-color-red-600);
+  --lt-color-white: #fff;
+  --lt-color-black: #111213;
+  --lt-color-transparent: rgba(255, 255, 255, 0);
+  --lt-color-background-light: var(--lt-color-gray-100);
+  --lt-color-background-default: var(--lt-color-gray-200);
+  --lt-color-background-dark: var(--lt-color-gray-300);
+  --lt-color-border-light: var(--lt-color-gray-200);
+  --lt-color-border-default: var(--lt-color-gray-300);
+  --lt-color-border-dark: var(--lt-color-gray-400);
+  --lt-color-text-very-light: var(--lt-color-gray-500);
+  --lt-color-text-light: var(--lt-color-gray-600);
+  --lt-color-text-default: var(--lt-color-gray-700);
+  --lt-color-text-dark: var(--lt-color-gray-800);
+  --lt-color-overlay-default: #fff;
+  --lt-color-overlay-dark: #fff;
+  --lt-color-overlay-transparent: rgba(0, 0, 0, 0.1);
+  --lt-shadow-website-overlay: 0 0 7px 0 rgba(0, 0, 0, 0.3);
 }
 
 @media (prefers-color-scheme: light) {

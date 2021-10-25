@@ -17,6 +17,7 @@ permalink: "/{{ title | slug }}/index.html"
 - Flex Box layout
 - Gradients
 - Grid Layout
+- Other
 
 ## Animations
 
@@ -45,3 +46,7 @@ permalink: "/{{ title | slug }}/index.html"
 - [CSS Grid Layout Module Level 1](https://www.w3.org/TR/css-grid-1)
 - [CSS Grid Layout Module Level 2](https://www.w3.org/TR/css-grid-2/)
 - [10 modern layouts in 1 line of CSS](https://youtu.be/qm0IfG1GyZU)
+
+## Other
+
+- [Prevent Scroll Chaining With Overscroll Behavio](https://ishadeed.com/article/prevent-scroll-chaining-overscroll-behavior/)

@@ -40,21 +40,49 @@
   
 <article class="post">
   <h1>Git Tip</h1>
-  <p></p>
-  <h2>Git config</h2>
+  <p>Some useful Git command</p>
+  <h2>Git log</h2>
+<p>Detailed log</p>
+<pre class="language-shell"><code class="language-shell"><span class="token function">git</span> log</code></pre>
+<p>Hash + subject line</p>
+<pre class="language-shell"><code class="language-shell"><span class="token function">git</span> log <span class="token parameter variable">--oneline</span></code></pre>
+<p>Group commit subject by username.</p>
+<pre class="language-shell"><code class="language-shell"><span class="token function">git</span> shortlog</code></pre>
+<h2>Git config</h2>
 <p>Show git config</p>
-<pre class="language-shell"><code class="language-shell"><span class="token function">git</span> config -l</code></pre>
+<pre class="language-shell"><code class="language-shell"><span class="token function">git</span> config <span class="token parameter variable">-l</span></code></pre>
 <p>Only local repository</p>
-<pre class="language-shell"><code class="language-shell"><span class="token function">git</span> config --local -l</code></pre>
+<pre class="language-shell"><code class="language-shell"><span class="token function">git</span> config <span class="token parameter variable">--local</span> <span class="token parameter variable">-l</span></code></pre>
 <p>Set user name and email for local</p>
-<pre class="language-shell"><code class="language-shell"><span class="token function">git</span> config --local user.name <span class="token string">"Your Name Here"</span><br><span class="token function">git</span> config --local user.email <span class="token string">"your@email.com"</span></code></pre>
+<pre class="language-shell"><code class="language-shell"><span class="token function">git</span> config <span class="token parameter variable">--local</span> user.name <span class="token string">"Your Name Here"</span><br><span class="token function">git</span> config <span class="token parameter variable">--local</span> user.email <span class="token string">"your@email.com"</span></code></pre>
 <p>Set user name and email to global <code>~/.gitconfig</code>:</p>
-<pre class="language-shell"><code class="language-shell"><span class="token function">git</span> config --global user.name <span class="token string">"Your Name Here"</span><br><span class="token function">git</span> config --global user.email <span class="token string">"your@email.com"</span></code></pre>
+<pre class="language-shell"><code class="language-shell"><span class="token function">git</span> config <span class="token parameter variable">--global</span> user.name <span class="token string">"Your Name Here"</span><br><span class="token function">git</span> config <span class="token parameter variable">--global</span> user.email <span class="token string">"your@email.com"</span></code></pre>
 <p>Set remote url</p>
 <pre class="language-shell"><code class="language-shell"><span class="token function">git</span> remote set-url origin git@github.com:username/repo-name.git</code></pre>
 <h2>Git branches</h2>
 <p>If mater branch was renamed on GitHub</p>
-<pre class="language-shell"><code class="language-shell"><span class="token function">git</span> branch -m master main<br><span class="token function">git</span> fetch origin<br><span class="token function">git</span> branch -u origin/main main<br><span class="token function">git</span> remote set-head origin -a</code></pre>
+<pre class="language-shell"><code class="language-shell"><span class="token function">git</span> branch <span class="token parameter variable">-m</span> master main<br><span class="token function">git</span> fetch origin<br><span class="token function">git</span> branch <span class="token parameter variable">-u</span> origin/main main<br><span class="token function">git</span> remote set-head origin <span class="token parameter variable">-a</span></code></pre>
+<h2>Commit Message Format</h2>
+<pre><code>&lt;type&gt;(&lt;scope&gt;): &lt;subject&gt;
+&lt;BLANK LINE&gt;
+&lt;body&gt;
+&lt;BLANK LINE&gt;
+&lt;footer&gt;
+</code></pre>
+<h2>Commit Message Type</h2>
+<p>Must be one of the following:</p>
+<ul>
+<li>build: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)</li>
+<li>ci: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)</li>
+<li>docs: Documentation only changes</li>
+<li>feature: A new feature</li>
+<li>fix: A bug fix</li>
+<li>perf: A code change that improves performance</li>
+<li>refactor: A code change that neither fixes a bug nor adds a feature</li>
+<li>revert: This reverts commit <hash></li>
+<li>style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)</li>
+<li>test: Adding missing tests or correcting existing tests</li>
+</ul>
 
 </article>
 

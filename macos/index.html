@@ -44,6 +44,7 @@
   <h2>Table of content</h2>
 <ul>
 <li>Install/reinstall macOS</li>
+<li>Apps</li>
 <li>Settings</li>
 <li>Troubleshooting</li>
 <li>Uninstall Apps</li>
@@ -53,18 +54,26 @@
 <li><a href="https://support.apple.com/en-gb/HT201372">How to create a bootable installer for macOS</a></li>
 <li><a href="https://support.apple.com/en-us/HT204904">How to reinstall macOS</a></li>
 </ul>
+<h2>Apps</h2>
+<ul>
+<li><a href="https://rectangleapp.com">Rectangle</a> - move and resize windows in macOS using keyboard shortcuts or snap areas</li>
+</ul>
 <h2>Settings</h2>
 <h3>Add dock separators</h3>
 <p>Add one separator.</p>
 <pre class="language-shell"><code class="language-shell">defaults <span class="token function">write</span> com.apple.dock persistent-apps -array-add <span class="token string">'{ "tile-type" = "spacer-tile"; }'</span></code></pre>
-<p>Reload dock.</p>
+<p>Reload Dock.</p>
 <pre class="language-shell"><code class="language-shell"><span class="token function">killall</span> Dock</code></pre>
+<p>Reset Dock.</p>
+<pre class="language-shell"><code class="language-shell">defaults delete com.apple.dock<span class="token punctuation">;</span> <span class="token function">killall</span> Dock</code></pre>
+<p>Reload Finder.</p>
+<pre class="language-shell"><code class="language-shell">killAll Finder</code></pre>
 <h2>Troubleshooting</h2>
 <h3>xcrun: error: invalid active developer path, missing xcrun</h3>
 <p>Install the Xcode toolkit.</p>
-<pre class="language-shell"><code class="language-shell">xcode-select --install</code></pre>
+<pre class="language-shell"><code class="language-shell">xcode-select <span class="token parameter variable">--install</span></code></pre>
 <p>If that doesn’t work, force it to reset.</p>
-<pre class="language-shell"><code class="language-shell">xcode-select --reset</code></pre>
+<pre class="language-shell"><code class="language-shell">xcode-select <span class="token parameter variable">--reset</span></code></pre>
 <h2>Uninstall Apps</h2>
 <ul>
 <li><a href="https://support.microsoft.com/en-us/office/uninstall-office-for-mac-eefa1199-5b58-43af-8a3d-b73dc1a8cae3#ID0EAABAAA=Newer_versions">Uninstall Microsoft Office</a></li>

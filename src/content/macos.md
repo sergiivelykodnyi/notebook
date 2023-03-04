@@ -11,6 +11,7 @@ permalink: "/{{ title | slug }}/index.html"
 ## Table of content
 
 - Install/reinstall macOS
+- Apps
 - Settings
 - Troubleshooting
 - Uninstall Apps
@@ -19,6 +20,10 @@ permalink: "/{{ title | slug }}/index.html"
 
 - [How to create a bootable installer for macOS](https://support.apple.com/en-gb/HT201372)
 - [How to reinstall macOS](https://support.apple.com/en-us/HT204904)
+
+## Apps
+
+- [Rectangle](https://rectangleapp.com) - move and resize windows in macOS using keyboard shortcuts or snap areas
 
 ## Settings
 
@@ -30,10 +35,22 @@ Add one separator.
 defaults write com.apple.dock persistent-apps -array-add '{ "tile-type" = "spacer-tile"; }'
 ```
 
-Reload dock.
+Reload Dock.
 
 ```shell
 killall Dock
+```
+
+Reset Dock.
+
+```shell
+defaults delete com.apple.dock; killall Dock
+```
+
+Reload Finder.
+
+```shell
+killAll Finder
 ```
 
 ## Troubleshooting

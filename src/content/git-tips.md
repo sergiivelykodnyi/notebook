@@ -4,10 +4,30 @@ date: "2021-04-16"
 tags:
   - git
   - tools
-description: ""
+description: "Some useful Git command"
 layout: layouts/post.njk
 permalink: "/{{ title | slug }}/index.html"
 ---
+
+## Git log
+
+Detailed log
+
+```shell
+git log
+```
+
+Hash + subject line
+
+```shell
+git log --oneline
+```
+
+Group commit subject by username.
+
+```shell
+git shortlog
+```
 
 ## Git config
 
@@ -53,3 +73,28 @@ git fetch origin
 git branch -u origin/main main
 git remote set-head origin -a
 ```
+
+## Commit Message Format
+
+```
+<type>(<scope>): <subject>
+<BLANK LINE>
+<body>
+<BLANK LINE>
+<footer>
+```
+
+## Commit Message Type
+
+Must be one of the following:
+
+- build: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+- ci: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
+- docs: Documentation only changes
+- feature: A new feature
+- fix: A bug fix
+- perf: A code change that improves performance
+- refactor: A code change that neither fixes a bug nor adds a feature
+- revert: This reverts commit <hash>
+- style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+- test: Adding missing tests or correcting existing tests

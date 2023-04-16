@@ -14,7 +14,7 @@ permalink: "/{{ title | slug }}/index.html"
 
 **LanguageTool** • grammar checker • [App Store](https://apps.apple.com/ua/app/languagetool-grammar-checker/id1534275760) • [Website](https://languagetool.org/)
 
-**Quality crafted apps** • [Website](https://theunarchiver.com/)
+**Quality crafted apps** • [Website](https://sindresorhus.com/apps)
 
 **Rectangle** • move and resize windows in macOS using keyboard shortcuts or snap areas • [Website](https://rectangleapp.com)
 

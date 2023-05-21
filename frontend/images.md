@@ -1,15 +1,4 @@
----
-title: "Image"
-date: "2021-03-02"
-tags:
-  - media
-  - graphics
-  - frontend
-  - web
-description: "Image source collection"
-layout: layouts/post.njk
-permalink: "/{{ title | slug }}/index.html"
----
+# Image
 
 ## Articles
 

@@ -1,14 +1,4 @@
----
-title: "React components"
-date: "2021-04-04"
-tags:
-  - javascript
-  - react
-  - web
-description: "Useful react modules"
-layout: layouts/post.njk
-permalink: "/{{ title | slug }}/index.html"
----
+# React
 
 1. [react-data-grid](https://github.com/adazzle/react-data-grid)
 1. [react-infinite-scroll-component](https://github.com/ankeetmaini/react-infinite-scroll-component#readme)<br /> _A component to make all your infinite scrolling woes go away with just 4.15 kB! Pull Down to Refresh feature added. An infinite-scroll that actually works and super-simple to integrate!_

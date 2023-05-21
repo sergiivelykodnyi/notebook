@@ -18,3 +18,8 @@ permalink: "/{{ title | slug }}/index.html"
 ## Apps
 
 - [Squoosh](https://squoosh.app/)
+
+## Image Placeholders
+
+- [Lorem Picsum](https://picsum.photos)
+- [Unsplash Source](https://source.unsplash.com)

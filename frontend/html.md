@@ -1,13 +1,4 @@
----
-title: "HTML"
-date: "2021-04-18"
-tags:
-  - html
-  - web
-description: "HTML source collection"
-layout: layouts/post.njk
-permalink: "/{{ title | slug }}/index.html"
----
+# HTML
 
 ## Boilerplate
 

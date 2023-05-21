@@ -26,7 +26,13 @@ Reload Finder.
 killAll Finder
 ```
 
-## Install the Xcode toolkit
+## Install/reinstall macOS
+
+- [How to create a bootable installer for macOS](https://support.apple.com/en-gb/HT201372)
+- [How to reinstall macOS from macOS Recovery](https://youtu.be/HCrl_4k0aqo)
+- [How to reinstall macOS](https://support.apple.com/en-us/HT204904)
+
+## Install Xcode toolkit
 
 ```shell
 xcode-select --install

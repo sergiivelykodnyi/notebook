@@ -1,13 +1,4 @@
----
-title: "Git Tip"
-date: "2021-04-16"
-tags:
-  - git
-  - tools
-description: "Some useful Git command"
-layout: layouts/post.njk
-permalink: "/{{ title | slug }}/index.html"
----
+# Git Tip
 
 ## Git log
 

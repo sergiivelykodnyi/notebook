@@ -1,23 +1,13 @@
----
-title: "CSS"
-date: "2020-07-04"
-tags:
-  - css
-  - frontend
-  - web
-description: "CSS source collection"
-layout: layouts/post.njk
-permalink: "/{{ title | slug }}/index.html"
----
+# CSS
 
 ## Table of content
 
-- Animations
-- Custom properties
-- Flex Box layout
-- Gradients
-- Grid Layout
-- Other
+- [Animations](#animations)
+- [Custom properties](#custom-properties)
+- [Flex Box layout](#flex-box-layout)
+- [Gradients](#flex-box-layout)
+- [Grid Layout](#grid-layout)
+- [Other](#other)
 
 ## Animations
 

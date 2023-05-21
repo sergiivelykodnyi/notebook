@@ -1,12 +1,4 @@
----
-title: "macOS Apps"
-date: "2020-07-27"
-tags:
-  - macOS
-description: "Some useful macOS apps."
-layout: layouts/post.njk
-permalink: "/{{ title | slug }}/index.html"
----
+# macOS Apps
 
 **AdGuard for Safari** • ad blocker extension which clears all ads in Safari and fights data tracking to project privacy • [App Store](https://apps.apple.com/ua/app/adguard-for-safari/id1440147259) • [Website](https://adguard.com/en/welcome.html)
 

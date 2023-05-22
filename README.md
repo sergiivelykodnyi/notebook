@@ -6,6 +6,7 @@
 - [frontend](#frontend)
 - [Git](#git)
 - [macOS](#macos)
+- [Visual Studio Code](#visual-studio-code)
 
 ### AI
 

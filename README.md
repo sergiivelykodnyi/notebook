@@ -37,11 +37,11 @@
 
 - [Useful Apps](/macos/apps.md)
 - [Tips](/macos/tips.md)
-- [Tools](/macos//tools.md)
+- [Tools](/macos/tools.md)
 
 ## Shell
 
-- [Programming](/shell/bash.md)
+- [Programming](/shell/programming.md)
 
 ## Visual Studio Code
 

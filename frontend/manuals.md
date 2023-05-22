@@ -1,15 +1,4 @@
----
-title: "Web"
-date: "2021-06-07"
-tags:
-  - javascript
-  - typescript
-  - tools
-  - web
-description: "Source collection about web"
-layout: layouts/post.njk
-permalink: "/{{ title | slug }}/index.html"
----
+# Manuals
 
 ## Articles
 

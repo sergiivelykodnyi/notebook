@@ -50,6 +50,29 @@ It can be used when you get following message in a terminal:
 xcrun: error: invalid active developer path, missing xcrun
 ```
 
+### SSH
+
+```shell
+chmod 755 ~/.ssh
+chmod 600 ~/.ssh/id_rsa ~/.ssh/id_rsa.pub
+chmod 644 ~/.ssh/known_hosts
+```
+
 ## Uninstall Microsoft Office
 
 [webpage](https://support.microsoft.com/en-us/office/uninstall-office-for-mac-eefa1199-5b58-43af-8a3d-b73dc1a8cae3#ID0EAABAAA=Newer_versions)
+
+## ZSH
+
+### Plugins
+
+- [Antigen](https://github.com/zsh-users/antigen)
+- [Powerlevel10k theme](https://github.com/romkatv/powerlevel10k)
+
+### zsh compinit: insecure directories
+
+[stackoverflow.com](https://stackoverflow.com/questions/13762280/zsh-compinit-insecure-directories)
+
+```bash
+sudo chmod -R 755 /usr/local/share/zsh; sudo chown -R root:staff /usr/local/share/zsh;
+```

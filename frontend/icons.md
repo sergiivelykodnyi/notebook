@@ -1,15 +1,4 @@
----
-title: "Icons"
-date: "2021-03-15"
-tags:
-  - frontend
-  - graphics
-  - icons
-  - web
-description: "Icons source collection"
-layout: layouts/post.njk
-permalink: "/{{ title | slug }}/index.html"
----
+# Icons
 
 ## Sources
 

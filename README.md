@@ -1,4 +1,4 @@
-# Wiki
+# 🧠 Compilation of resources and tips on web development
 
 ## Table of content
 
@@ -8,11 +8,11 @@
 - [macOS](#macos)
 - [Visual Studio Code](#visual-studio-code)
 
-### AI
+## AI
 
 - [ChatGPT](/ai/chatgpt.md)
 
-### Frontend
+## Frontend
 
 - [Accessibility](/frontend/a11y.md)
 - [CSS](/frontend/css.md)
@@ -27,18 +27,18 @@
 - [Tooling](/frontend/tools.md)
 - [Typography](/frontend/typography.md)
 
-### Git
+## Git
 
 - [Tips](/git/tips.md)
 - [Tools](/git/tools.md)
 
-### macOS
+## macOS
 
 - [Useful Apps](/macos/apps.md)
 - [Tips](/macos/tips.md)
 - [Tools](/macos//tools.md)
 
-### Visual Studio Code
+## Visual Studio Code
 
 - [Fonts](/vscode/fonts.md)
 - [Hotkeys](/vscode/hotkeys.md)

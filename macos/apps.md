@@ -8,6 +8,6 @@
 
 **Quality crafted apps** • [Website](https://sindresorhus.com/apps)
 
-**Rectangle** • move and resize windows in macOS using keyboard shortcuts or snap areas • [Website](https://rectangleapp.com)
+**Elegant optimizations for macOS** • [Website](https://ryanhanson.dev/)
 
 **The Unarchiver** • support any archive formats • [App Store](https://apps.apple.com/ua/app/the-unarchiver/id425424353) • [Website](https://theunarchiver.com/)

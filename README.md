@@ -6,6 +6,7 @@
 - [frontend](#frontend)
 - [Git](#git)
 - [macOS](#macos)
+- [Shell](#shell)
 - [Visual Studio Code](#visual-studio-code)
 
 ## AI
@@ -37,6 +38,10 @@
 - [Useful Apps](/macos/apps.md)
 - [Tips](/macos/tips.md)
 - [Tools](/macos//tools.md)
+
+## Shell
+
+- [Programming](/shell/bash.md)
 
 ## Visual Studio Code
 

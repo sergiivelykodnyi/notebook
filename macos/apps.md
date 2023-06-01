@@ -10,4 +10,8 @@
 
 **Elegant optimizations for macOS** • [Website](https://ryanhanson.dev/)
 
+**MacGPT** • ChatGPT on your Mac and Menubar • [Website](https://macgpt.com/)
+
+**Raycast** • Spotlight for developers • [Website](https://raycast.com/)
+
 **The Unarchiver** • support any archive formats • [App Store](https://apps.apple.com/ua/app/the-unarchiver/id425424353) • [Website](https://theunarchiver.com/)

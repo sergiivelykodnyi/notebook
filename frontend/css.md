@@ -7,6 +7,7 @@
 - [Flex Box layout](#flex-box-layout)
 - [Gradients](#flex-box-layout)
 - [Grid Layout](#grid-layout)
+- [Tables](#tables)
 - [Other](#other)
 
 ## Animations
@@ -36,6 +37,10 @@
 - [CSS Grid Layout Module Level 1](https://www.w3.org/TR/css-grid-1)
 - [CSS Grid Layout Module Level 2](https://www.w3.org/TR/css-grid-2/)
 - [10 modern layouts in 1 line of CSS](https://youtu.be/qm0IfG1GyZU)
+
+## Tables
+
+- [A Complete Guide to the Table Element](https://css-tricks.com/complete-guide-table-element/)
 
 ## Other
 

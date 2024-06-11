@@ -1,6 +1,4 @@
-# 🧠 Compilation of resources and tips on web development
-
-## Table of content
+# Table of content
 
 - [AI](#ai)
 - [frontend](#frontend)

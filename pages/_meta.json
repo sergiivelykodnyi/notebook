@@ -5,5 +5,9 @@
   "git": "Git",
   "macos": "macOS",
   "shell": "Shell",
-  "vscode": "VS Code"
+  "vscode": "VS Code",
+  "about": {
+    "title": "About",
+    "type": "page"
+  }
 }

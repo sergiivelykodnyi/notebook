@@ -5,8 +5,7 @@
   "author": "Sergii Velykodnyi",
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "build": "next build"
   },
   "dependencies": {
     "next": "^14.2.4",

@@ -1,4 +1,9 @@
 {
   "index": "Home",
-  "macos": "macOS"
+  "ai": "AI",
+  "frontend": "Frontend",
+  "git": "Git",
+  "macos": "macOS",
+  "shell": "Shell",
+  "vscode": "VS Code"
 }

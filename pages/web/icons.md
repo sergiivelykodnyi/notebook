@@ -8,6 +8,7 @@
 - [Iconify](https://iconify.design)
 - [IconSVG](https://iconsvg.xyz)
 - [React Icons](https://react-icons.github.io/react-icons/)
+- [favicon.io](https://favicon.io/) • A favicon generator (free). It can generate favicons from text, images, or emojis.
 
 ## Articles
 

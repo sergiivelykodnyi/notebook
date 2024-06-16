@@ -13,10 +13,10 @@ export default {
   docsRepositoryBase: "https://github.com/sergiivelykodnyi/wiki",
   useNextSeoProps() {
     const { asPath } = useRouter();
-    let titleTemplate = "%s | Wiki";
+    let titleTemplate = "%s | Sergii Velykodnyi's Wiki";
 
     if (asPath === "/") {
-      titleTemplate = "Wiki";
+      titleTemplate = "Sergii Velykodnyi's Wiki";
     }
 
     return {

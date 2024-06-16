@@ -1,11 +1,12 @@
 {
   "index": "Home",
   "ai": "AI",
-  "frontend": "Frontend",
   "git": "Git",
   "macos": "macOS",
+  "programming": "Programming",
   "shell": "Shell",
   "vscode": "VS Code",
+  "web": "Web",
   "about": {
     "title": "About",
     "type": "page"

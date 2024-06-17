@@ -8,8 +8,6 @@
 - **Flow** • Focus and Pomodoro timer • [Website](https://www.flow.app/)
 - **HiDock** • Set custom Dock settings for when on different displays • [Website](https://hidock.app/)
 - **IINA** • The modern media player for macOS • [Website](https://iina.io/)
-- **Karabiner-Elements** • A powerful and stable keyboard customizer for macOS. • [Website](https://karabiner-elements.pqrs.org/)
-- **KeyboardCleanTool** • Super simple little tool which blocks all Keyboard and TouchBar input • [Website](https://folivora.ai/keyboardcleantool)
 - **LanguageTool** • Grammar checker • [App Store](https://apps.apple.com/ua/app/languagetool-grammar-checker/id1534275760) • [Website](https://languagetool.org/)
 - **Quality crafted apps** • [Website](https://sindresorhus.com/apps)
 - **Raycast** • Spotlight for developers • [Website](https://raycast.com/)

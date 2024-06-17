@@ -4,25 +4,25 @@
 
 Add one separator.
 
-```shell
+```shell copy
 defaults write com.apple.dock persistent-apps -array-add '{ "tile-type" = "spacer-tile"; }'
 ```
 
 Reload Dock.
 
-```shell
+```shell copy
 killall Dock
 ```
 
 Reset Dock.
 
-```shell
+```shell copy
 defaults delete com.apple.dock; killall Dock
 ```
 
 Reload Finder.
 
-```shell
+```shell copy
 killAll Finder
 ```
 
@@ -34,19 +34,19 @@ killAll Finder
 
 ## Install Xcode toolkit
 
-```shell
+```shell copy
 xcode-select --install
 ```
 
 If that doesn’t work, force it to reset.
 
-```shell
+```shell copy
 xcode-select --reset
 ```
 
 It can be used when you get following message in a terminal:
 
-```shell
+```shell copy
 xcrun: error: invalid active developer path, missing xcrun
 ```
 

@@ -4,19 +4,19 @@
 
 Detailed log
 
-```shell
+```shell copy
 git log
 ```
 
 Hash + subject line
 
-```shell
+```shell copy
 git log --oneline
 ```
 
 Group commit subject by username.
 
-```shell
+```shell copy
 git shortlog
 ```
 
@@ -24,33 +24,39 @@ git shortlog
 
 Show git config
 
-```shell
+```shell copy
 git config -l
 ```
 
 Only local repository
 
-```shell
+```shell copy
 git config --local -l
 ```
 
 Set user name and email for local
 
-```shell
+```shell copy
 git config --local user.name "Your Name Here"
+```
+
+```shell copy
 git config --local user.email "your@email.com"
 ```
 
 Set user name and email to global `~/.gitconfig`:
 
-```shell
+```shell copy
 git config --global user.name "Your Name Here"
+```
+
+```shell copy
 git config --global user.email "your@email.com"
 ```
 
 Set remote url
 
-```shell
+```shell copy
 git remote set-url origin git@github.com:username/repo-name.git
 ```
 
@@ -58,10 +64,19 @@ git remote set-url origin git@github.com:username/repo-name.git
 
 If mater branch was renamed on GitHub
 
-```shell
+```shell copy
 git branch -m master main
+```
+
+```shell copy
 git fetch origin
+```
+
+```shell copy
 git branch -u origin/main main
+```
+
+```shell copy
 git remote set-head origin -a
 ```
 
@@ -79,13 +94,13 @@ git remote set-head origin -a
 
 Must be one of the following:
 
-- build: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
-- ci: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
-- docs: Documentation only changes
-- feature: A new feature
-- fix: A bug fix
-- perf: A code change that improves performance
-- refactor: A code change that neither fixes a bug nor adds a feature
-- revert: This reverts commit <hash>
-- style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
-- test: Adding missing tests or correcting existing tests
+- **build:** Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+- **ci:** Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
+- **docs:** Documentation only changes
+- **feature:** A new feature
+- **fix:** A bug fix
+- **perf:** A code change that improves performance
+- **refactor:** A code change that neither fixes a bug nor adds a feature
+- **revert:** This reverts commit `<hash>`
+- **style:** Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+- **test:** Adding missing tests or correcting existing tests

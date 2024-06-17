@@ -1,10 +1,18 @@
-# Keyboard Shortcuts
+# Visual Studio Code
+
+## Fonts
+
+- [FiraCode](https://github.com/tonsky/FiraCode)
+- [Hack](https://github.com/source-foundry/Hack)
+- [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+
+## Keyboard Shortcuts
 
 | Command                   | Key           |
 | ------------------------- | ------------- |
 | Keyboard shortcuts editor | `cmd+k cmd+s` |
 
-## Fold
+### Fold
 
 | Command             | Key           |
 | ------------------- | ------------- |
@@ -14,7 +22,7 @@
 | Fold all            | `cmd+k cmd+0` |
 | Fold level 1 (1..7) | `cmd+k cmd+1` |
 
-## Markdown
+### Markdown
 
 | Command                   | Key       |
 | ------------------------- | --------- |

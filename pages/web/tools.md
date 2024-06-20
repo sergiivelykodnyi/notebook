@@ -1,5 +1,4 @@
 # Tools
 
-- [Create App](https://createapp.dev)
-- [Create React App](https://create-react-app.dev/)
-- [JavaScript and TypeScript tooling overview](https://tooling.js.org)
+- **[Biome](https://biomejs.dev/)** • Format, lint, and more in a fraction of a second.
+- **[Create App](https://createapp.dev)** • Frontend build config generator

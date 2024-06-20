@@ -1,0 +1,108 @@
+# Cypress code coverage
+
+Cypress uses the **[@cypress/code-coverage](https://github.com/cypress-io/code-coverage)** plugin to create repors. It uses [istanbul](https://istanbul.js.org/) under the hood. See oficial Cypress [code coverage](https://docs.cypress.io/guides/tooling/code-coverage) documentation for more details.
+
+## How to setup code coverage for React project with Webpack and ts-loader
+
+The official documentation does not describe how to set up code coverage for the **React** project with **Webpack** and **ts-loader**. Here's how:
+
+### 1. Install dependencies
+
+```bash copy
+npm install --save-dev @babel/core babel-loader babel-plugin-istanbul @cypress/code-coverage
+```
+
+### 2. Update `webpack.config.js`
+
+Since `ts-loader` works very well in combination with `babel` and `babel-loader`. (See ts-loader [docs](https://www.npmjs.com/package/ts-loader#babel)). We can combine `ts-loader` and `babel-loader` together in Webpack settings.
+
+```javascript filename="webpack.config.js"
+export default {
+  // other settings
+  module: {
+    rules: [
+      {
+        test: /\.tsx?$/,
+        use: [
+          {
+            loader: "babel-loader",
+            options: {
+              plugins: ["istanbul"],
+            },
+          },
+          "ts-loader",
+        ],
+      },
+    ],
+  },
+  // other settings
+};
+```
+
+### 3. Update Cypress configuration
+
+Add the code below to the support files:
+
+```typescript filename="cypress/support/e2e.ts"
+import "@cypress/code-coverage/support";
+```
+
+```typescript filename="cypress/support/component.ts"
+import "@cypress/code-coverage/support";
+```
+
+Set up node events function:
+
+```typescript filename="cypress.config.ts"
+import { defineConfig } from "cypress";
+
+export default defineConfig({
+  // E2E Testing configuration. For more details, see:
+  // https://docs.cypress.io/guides/references/configuration#e2e
+  e2e: {
+    // other settings
+    setupNodeEvents(on, config) {
+      require("@cypress/code-coverage/task")(on, config);
+      // const webpackPreprocessor = require('@cypress/webpack-preprocessor');
+      // const rules = webpackPreprocessor.defaultOptions.webpackOptions.module.rules;
+
+      // console.log(rules[0].use[0].options);
+      // include any other plugin code...
+
+      // It's IMPORTANT to return the config object
+      // with any changed environment variables
+      return config;
+    },
+  },
+
+  // Component Testing configuration. For more details, see:
+  // https://docs.cypress.io/guides/references/configuration#component
+  component: {
+    // other settings
+    setupNodeEvents(on, config) {
+      require("@cypress/code-coverage/task")(on, config);
+      // include any other plugin code...
+
+      // It's IMPORTANT to return the config object
+      // with any changed environment variables
+      return config;
+    },
+  },
+});
+```
+
+### 4. Check TypeScript configuration
+
+💡 Make sure you have `compilerOptions.sourceMap` set to `true` in your `cypress/tsconfgi.json` file. It is important! Otherwise, components code coverage won't work properly.
+
+```json filename="cypress/tsconfig.json"
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    // other settings
+    "sourceMap": true
+  }
+}
+```
+
+And that's it! You can now run your Cyperss tests, and it'll give you a code coverage report. By default [NYC](https://github.com/istanbuljs/nyc) place a report in the `coverage` folder and `out.json` in `.nyc_output` folder.

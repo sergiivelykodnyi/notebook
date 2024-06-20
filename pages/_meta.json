@@ -1,14 +1,13 @@
 {
-  "index": "Home",
-  "ai": "AI",
-  "git": "Git",
-  "guides": "Guides",
-  "macos": "macOS",
-  "programming": "Programming",
-  "tools": "Tools",
-  "web": "Web",
-  "about": {
-    "title": "About",
+  "*": {
     "type": "page"
-  }
+  },
+  "index": {
+    "title": "Home",
+    "type": "page",
+    "display": "hidden"
+  },
+  "guides": "Guides",
+  "notes": "Notes",
+  "about": "About"
 }

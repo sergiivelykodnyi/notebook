@@ -4,7 +4,7 @@
   "description": "",
   "author": "Sergii Velykodnyi",
   "scripts": {
-    "dev": "next",
+    "dev": "next -p 4000",
     "build": "next build"
   },
   "dependencies": {

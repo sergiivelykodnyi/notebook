@@ -63,14 +63,7 @@ export default defineConfig({
     // other settings
     setupNodeEvents(on, config) {
       require("@cypress/code-coverage/task")(on, config);
-      // const webpackPreprocessor = require('@cypress/webpack-preprocessor');
-      // const rules = webpackPreprocessor.defaultOptions.webpackOptions.module.rules;
 
-      // console.log(rules[0].use[0].options);
-      // include any other plugin code...
-
-      // It's IMPORTANT to return the config object
-      // with any changed environment variables
       return config;
     },
   },
@@ -81,10 +74,7 @@ export default defineConfig({
     // other settings
     setupNodeEvents(on, config) {
       require("@cypress/code-coverage/task")(on, config);
-      // include any other plugin code...
 
-      // It's IMPORTANT to return the config object
-      // with any changed environment variables
       return config;
     },
   },

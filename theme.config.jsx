@@ -1,33 +1,29 @@
 import { useRouter } from "next/router";
 
 export default {
-  faviconGlyph: "📚",
-  logo: (
-    <span className="nx-text-xl nx-font-semibold">
-      📚 Sergii Velykodnyi's Wiki
-    </span>
-  ),
+  faviconGlyph: "📒",
+  logo: <span className="nx-text-xl nx-font-semibold">📒 Notebook</span>,
   project: {
-    link: "https://github.com/sergiivelykodnyi/wiki",
+    link: "https://github.com/sergiivelykodnyi/notebook",
   },
-  docsRepositoryBase: "https://github.com/sergiivelykodnyi/wiki",
+  docsRepositoryBase: "https://github.com/sergiivelykodnyi/notebook",
   useNextSeoProps() {
     const { asPath } = useRouter();
-    let titleTemplate = "%s | Sergii Velykodnyi's Wiki";
+    let titleTemplate = "%s | Notebook";
 
     if (asPath === "/") {
-      titleTemplate = "Sergii Velykodnyi's Wiki";
+      titleTemplate = "Notebook";
     }
 
     return {
       titleTemplate,
       description:
-        "Sergii Velykodnyi's Wiki is a personal collection of useful articles, guides, tutorials and tips.",
+        "Notebook is a personal collection of useful articles, guides, tutorials and tips.",
       openGraph: {
         type: "website",
         locale: "en_US",
-        url: "https://sergiivelykodnyi.github.io/wiki/",
-        siteName: "Wiki",
+        url: "https://sergiivelykodnyi.github.io/notebook/",
+        siteName: "Notebook",
       },
     };
   },
@@ -38,7 +34,7 @@ export default {
         content="width=device-width, initial-scale=1.0, viewport-fit=cover"
       />
       <meta httpEquiv="Content-Language" content="en" />,
-      <meta name="apple-mobile-web-app-title" content="Wiki" />
+      <meta name="apple-mobile-web-app-title" content="Notebook" />
       <meta name="msapplication-TileColor" content="#fff" />
     </>
   ),

@@ -4,7 +4,7 @@ const withNextra = require("nextra")({
 });
 
 module.exports = withNextra({
-  basePath: "/wiki",
+  basePath: "/notebook",
   output: "export",
   distDir: "out",
   images: {

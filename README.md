@@ -1,4 +1,4 @@
-# 📚 Notebook
+# 📒 Notebook
 
 It is my personal collection of useful articles, guides, tutorials and tips. It is a knowledge base that I use to store and share information that I find useful.
 
